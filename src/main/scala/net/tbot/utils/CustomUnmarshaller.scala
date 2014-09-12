@@ -8,6 +8,12 @@ import spray.http._
 import MediaTypes._
 import org.ccil.cowan.tagsoup.jaxp.SAXFactoryImpl
 
+
+/**
+ * Кастомный анмаршаллер, который на самом деле обычный анмаршаллер,
+ * но с другим SAX парсером для некачественного XML
+ */
+
 trait CustomUnmarshaller {
 	implicit val NodeSeqUnmarshaller =
 		Unmarshaller[NodeSeq](`text/xml`, `application/xml`, `text/html`, `application/xhtml+xml`) {

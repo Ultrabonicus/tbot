@@ -2,35 +2,27 @@ package net.tbot.main
 
 import akka.actor._
 import scala.concurrent.duration._
-import net.tbot.messages._
 import scala.concurrent.Future
 import scala.util.{ Success, Failure }
 import akka.util.Timeout
 import net.tbot.utils.Implicits._
-import net.tbot.messages.SprayStart
-import scala.language.postfixOps
+
+object Master {
+	def props = Props[Master]
+	def name = "Master"
+}
 
 class Master extends Actor with ActorLogging {
-
-	implicit val timeout = Timeout(15 seconds)
 	val system = context.system
 	import system.dispatcher
-
-	val webClient = system.actorOf(Props[WebClient])
-
-	def receive = general
-
-	val general: Receive = {
-		case Start =>
-			log.info("Received Start at master"); webClient ! SprayStart
-		case Ready =>
-			log.info("Client is ready for LogIn"); webClient ! LogIn("Milkie", "lsgovno")
-		case LoggedIn =>
-			log.info("Client logged in"); webClient ! GetPage("")
-		case Page(str) => str.onComplete {
-			case Success(t) => log.info(t.parsePage.get.toString())
-			case Failure(e) => log.error(e.toString())
-		}
+	val tWebClient = context.actorOf(ClientSupervisor.props, ClientSupervisor.name)
+	
+	def receive: Receive = {
+		case LogIn(name, password) => tWebClient ! LogIn(name, password)
+		case GetPage(url) => tWebClient ! GetPage(url)
+		case LoggedIn => tWebClient ! GetPage("")
+		case LogInFailed(list) => log.warning("blabla log in failed")
+		case Page(page) => page.onSuccess{case x => log.info(x.parsePage.toString)} 
 	}
-
+	
 }

@@ -1,4 +1,5 @@
 scalacOptions ++= Seq("-encoding", "utf8", "-deprecation", "-unchecked")
+
 scalacOptions ++= Seq("-feature")
 
 scalaVersion := "2.11.2"
