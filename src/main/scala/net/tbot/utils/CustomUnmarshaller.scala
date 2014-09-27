@@ -7,7 +7,13 @@ import scala.xml.{ XML, NodeSeq }
 import spray.http._
 import MediaTypes._
 import org.ccil.cowan.tagsoup.jaxp.SAXFactoryImpl
+import spray.json.DefaultJsonProtocol
 
+case class CommentStreamLoad(sText: String, sMsgTitle:String, sMsg:String, bStateError:Boolean)
+
+object CommentStreamJsonProtocol extends DefaultJsonProtocol {
+	implicit val commentStreamFormat = jsonFormat4(CommentStreamLoad)
+}
 
 /**
  * Кастомный анмаршаллер, который на самом деле обычный анмаршаллер,

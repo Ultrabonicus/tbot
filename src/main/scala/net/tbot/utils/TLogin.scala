@@ -14,26 +14,36 @@ object TLogin {
 	import spray.util._
 	/**
 	 * Собирает формочку для запроса на логин
-	 * 
+	 *
 	 * @param login
-	 * 
+	 *
 	 * @param password
-	 * 
-	 * @param slskey
-	 * 
+	 *
+	 * @param url
+	 *
 	 * @param remember
-	 * 
+	 *
 	 * @return собраный запрос с формочкой
 	 */
-	def loginRequest(login: String, password: String, slskey: String, remember: Boolean = true): HttpRequest = {
+/*
+	def loginRequest(login: String, password: String, remember: Boolean = true, url: String): HttpRequest = {
 		val data = collection.immutable.ListMap(
-				"login" -> login,
-				"password" -> password, 
-				"remember" -> (if (remember) "on" else "off"), 
-				"return-path" -> "http://tabun.everypony.ru/", 
-				"security_ls_key" -> slskey
-				)
-		val request = Post("http://tabun.everypony.ru/login/ajax-login", FormData(data))
+			"login" -> login,
+			"password" -> password,
+			"remember" -> (if (remember) "on" else "off"),
+			"return-path" -> "http://tabun.everypony.ru/")
+		val request = Post(url + "/login/ajax-login", FormData(data))
+		request.withHeaders(List(RawHeader("X-Requested-With", "XMLHttpRequest")))
+	}
+*/
+		def loginRequest(login: String, password: String, slskey: String, remember: Boolean = true, url: String): HttpRequest = {
+		val data = collection.immutable.ListMap(
+			"login" -> login,
+			"password" -> password,
+			"remember" -> (if (remember) "on" else "off"),
+			"return-path" -> "http://tabun.everypony.ru/",
+			"security_ls_key" -> slskey)
+		val request = Post(url + "/login/ajax-login", FormData(data))
 		request.withHeaders(List(RawHeader("X-Requested-With", "XMLHttpRequest")))
 	}
 

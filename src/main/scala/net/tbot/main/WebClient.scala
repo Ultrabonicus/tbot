@@ -6,102 +6,133 @@ import scala.util.{ Success, Failure }
 import spray.http._
 import net.tbot.utils.Implicits._
 import spray.http.HttpHeaders._
+import scala.concurrent.duration._
+import net.tbot.utils.CommentStreamLoad
+import spray.httpx.unmarshalling._
+import scala.util.Success
 
 /**
  *  Актор-вебклиент
  */
 
+case class PostWithKey(url: String)
 case class GetPage(url: String)
 case class LogIn(name: String, password: String)
 
-object WebClient{
+object WebClient {
 	def props = Props[WebClient]
 	def name = "WebClient"
 }
-	
 
 class WebClient extends Actor with ActorLogging {
 
 	val system = context.system
 	import system.dispatcher
-	val webClient = new SprayWebClient()(system)
-	log.info("Client created")
+	val webClient = new SprayWebClient(log)(system)
+	log.debug("Client created")
 
-	
-	/**
-	 * TODO убрать урл куда-нибудь в файл
-	 */
-	val defurl = "http://tabun.everypony.ru"
+	var receive: Receive = notInitiated
 
-	var receive: Receive = unLoggedIn
+	def notInitiated: Receive = {
+		case Initiate(url) =>
+			webClient.setDefaultUrl(url);
+			sender ! Initiated;
+			context.become(notLoggedIn)
+	}
 
 	/**
 	 * @return Receive для состояния без логина
 	 */
-	
-	def unLoggedIn: Receive = {
+
+	def notLoggedIn: Receive = {
 		case LogIn(name, password) => logIn(context.sender, name, password)
-		case GetPage(url) => context.sender ! Page(webClient.get(defurl + url))
+		case GetPage(url) => sender ! Page(webClient.get(url))
 	}
 
 	/**
 	 * @return Receive для состояния в логине
 	 */
 	
+	context.system.scheduler.schedule(10.seconds, 10.seconds){
+		import net.tbot.utils.CommentStreamJsonProtocol._
+		import spray.httpx.SprayJsonSupport._
+		log.debug("requested at scheduler")
+		webClient.postWithKey("/ajax/stream/comment/") match {
+			case Success(res) => {
+				context.system.eventStream.publish(event = CommentStreamFuture(res.map(_.entity.as[CommentStreamLoad])))
+				log.debug("published at scheduler")
+			}
+			case Failure(e) => {log.debug("failure at scheduler")}
+		}
+		
+	}
+	
 	def loggedIn: Receive = {
-		case GetPage(url) => context.sender ! Page(webClient.get(defurl + url))
+		case GetPage(url) => sender ! Page(webClient.get(url)); log.debug("taking page")
+		case Subscribe(ref, typ) => {
+			log.debug("Subscribing at webclient")
+			typ match {
+				case CommentStream => log.debug("subscribing to commentstream") ; context.system.eventStream.subscribe(ref, classOf[CommentStreamFuture])
+			}
+		}
 	}
 
 	/**
-	 * TODO смержить 2 действия для логина ниже
+	 * TODO ужас
 	 */
-	
 	def logIn(sender: ActorRef, name: String, password: String) = {
-		webClient.get("http://tabun.everypony.ru").map { res =>
+		webClient.get().map { res =>
 			res.status match {
 				case StatusCodes.OK => {
-					log.info("Got 200, looking for slskey & cookies")
+					log.debug("Got 200, looking for slskey & cookies")
 					res.getCookie("PHPSESSID") match {
-						case Some(sessid) =>	{ log.info("Got this phpsessid " + sessid)
-							res.getslskey match {
-								case Success(slskey) => {log.info("Got this security key" + slskey)
-									webClient.setCookie(Seq(sessid))
-									val res2 = webClient.logInWithResponse(slskey, name, password)
+						case Some(sessid) => {
+							log.debug("Got this phpsessid " + sessid)
+							res.getCookie("LIVESTREET_SECURITY_KEY") match {
+								case Some(slskey) => {
+									log.debug("Got this security key " + slskey)
+									webClient.setCookie(Seq(sessid, slskey))
+									val sekey = res.getslskey.get
+									val res2 = webClient.logInWithResponse(name, password,sekey)
 									res2.status match {
 										case StatusCodes.OK => {
 											res2.getCookie("key") match {
 												case Some(key) => {
-													webClient.setCookie(Seq(key)) 
-													log.info("Key set after login") 
+													webClient.setCookie(Seq(key))
+													log.debug("Key " + key.value + " set after login")
 													sender ! LoggedIn
 													context.become(loggedIn)
 												}
 												case None => {
-													log.warning("Didn't got key cookie after login"); 
+													log.warning("Didn't got key cookie after login: " + res2);
 													sender ! LogInFailed(List("No key after login"))
 												}
 											}
 										}
-										case any => log.warning("Got this " + any + " after login attempt");
+										case any =>
+											log.warning("Got this " + any + " after login attempt");
 											sender ! LogInFailed(List(any + " status code after login request"))
 									}
 								}
-								case Failure(e) => sender ! LogInFailed(List("Security key not found"))
+								case None => sender ! LogInFailed(List("Security key not found"))
 							}
 						}
-						case None => { 
+						case None => {
 							log.warning("No session id")
 							res.getslskey match {
 								case Success(_) => sender ! LogInFailed(List("No session id"))
-								case Failure(e) => log.warning("And no security key"); 
-									sender ! LogInFailed(List("Security key not found","No session id"))
-							} 
+								case Failure(e) =>
+									log.warning("And no security key");
+									sender ! LogInFailed(List("Security key not found", "No session id"))
+							}
 						}
 					}
 				}
-				case any => log.error("Got this " + any + " at first request"); 
+				case any =>
+					log.error("Got this " + any + " at first request");
 					sender ! LogInFailed(List(any + " status code at first request"))
 			}
 		}
 	}
+
 }

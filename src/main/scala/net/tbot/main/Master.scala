@@ -17,12 +17,22 @@ class Master extends Actor with ActorLogging {
 	import system.dispatcher
 	val tWebClient = context.actorOf(ClientSupervisor.props, ClientSupervisor.name)
 	
+	val commentStream = context.actorOf(CommentStreamReader.props, CommentStreamReader.name)
+	
+	tWebClient ! Initiate("tabun.everypony.ru")
+
 	def receive: Receive = {
+
 		case LogIn(name, password) => tWebClient ! LogIn(name, password)
 		case GetPage(url) => tWebClient ! GetPage(url)
-		case LoggedIn => tWebClient ! GetPage("")
+		
+		case Subscribe(ref,typ) => log.debug("subscribe at master") ; tWebClient ! Subscribe(ref,typ)
+		case LoggedIn => log.info("logged in")
 		case LogInFailed(list) => log.warning("blabla log in failed")
-		case Page(page) => page.onSuccess{case x => log.info(x.parsePage.toString)} 
+		case Page(page) => page.onComplete {
+			case Success(x) => log.info(x.parsePage.toString)
+			case Failure(e) => log.warning("Failure!")
+		}
 	}
-	
+
 }
