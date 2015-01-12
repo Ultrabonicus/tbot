@@ -16,4 +16,21 @@ object TestPages {
 		src.close
 		entity
 	}
+	
+	def getPage(name:String):String = {
+		val currentDir = System.getProperty("user.dir")
+		val src = scala.io.Source.fromFile(currentDir + "/src/test/scala/testFiles/" + name)("UTF-8")
+		val entity = src.mkString
+		src.close
+		entity
+	}
+	
+	lazy val blogPage = {
+		getPage("BlogPage")
+	}
+	
+	lazy val blogPage2 = {
+		getPage("BlogPage2")
+	}
+	
 }

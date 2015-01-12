@@ -72,12 +72,12 @@ class SprayWebClient(log:LoggingAdapter)(implicit system: ActorSystem) extends G
 		response
 	}
 	
-	def postWithKey(url: String) = Try{
+	def postWithKey(url: String, formData:Map[String,String] = Map()) = Try{
 		val uri = Uri("http://" + defurl + url)
-		val data = Map("security_ls_key" -> skey.get)
+		val data = Map("security_ls_key" -> skey.get) ++ formData
 		val request = Post(uri,FormData(data))
 		log.debug(request.toString)
-		val response = pipeline(request)
+		val response = pipeline(request.withHeaders(List(RawHeader("X-Requested-With", "XMLHttpRequest"))))
 		response
 	}
 

@@ -12,6 +12,8 @@ import scala.collection.immutable.HashMap
 import spray.httpx.unmarshalling.Deserialized
 import net.tbot.utils.CommentStreamLoad
 import spray.http.HttpEntity
+import net.tbot.utils.CommentStreamLoad
+import net.tbot.utils.Load
 
 /**
  *  Актор-cупервайзер
@@ -28,13 +30,22 @@ case object Initiated
 case object LoggedIn
 case class LogInFailed(failures: List[String])
 case class Page(response: Future[HttpResponse])
-abstract class Published
-case class CommentStreamFuture(f:Future[Deserialized[CommentStreamLoad]]) extends Published
 
-abstract class Stream
-case object CommentStream extends Stream
+abstract class Publishable
+case class CommentStreamFuture(f:Future[Deserialized[CommentStreamLoad]]) extends Publishable
+
+abstract class Stream{
+	def getClassOfLoad:Class[_<:Load]
+	def getClassOfFuture:Class[_<:Publishable]
+}
+case object CommentStream extends Stream{
+	def getClassOfLoad = classOf[CommentStreamLoad]
+	def getClassOfFuture = classOf[CommentStreamFuture]
+}
 
 case class Subscribe(ref: ActorRef, typ: Stream)
+case class Unsubscribe(ref: ActorRef, typ: Stream)
+
 
 class ClientSupervisor extends Actor with Stash with ActorLogging {
 
@@ -77,23 +88,14 @@ class ClientSupervisor extends Actor with Stash with ActorLogging {
 		case _ => stash
 	}
 
-	var subscribes:HashMap[String, List[ActorRef]] = HashMap()
+	
 	
 	def loggedIn(master: ActorRef): Receive = {
 		case GetPage(url) =>
 			webClient ! GetPage(url); log.debug("Requested page with login :" + url)
 		case Page(ftr) => master ! Page(ftr); log.debug("sending page2")
-		case Subscribe(ref,typ) => {
-			log.debug("Subscribing actor with ref " + ref + " to " + typ)
-			val streamName = typ match {
-				case CommentStream => "CommentStream"
-			}
-		  	val nl = 
-		  		if(!subscribes.contains(streamName)) List(ref)
-		  		else subscribes.apply(streamName) ++ List(ref)
-			subscribes = subscribes ++ HashMap(streamName -> nl)
-			webClient ! Subscribe(ref,typ)
-	}
+		case Subscribe(ref,typ) => log.debug("Subscribing actor: " + ref + " for: " + typ) ; webClient ! Subscribe(ref,typ)
+		case Unsubscribe(ref,typ) => log.debug("Unsubscribing actor: " + ref + " from: " + typ) ; webClient! Unsubscribe(ref,typ)
 		case _ => log.debug("unexpected message at client supervisor")
 	}
 

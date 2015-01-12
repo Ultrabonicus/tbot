@@ -1,0 +1,1134 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	
+	
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>Все блоги / Табун - место, где пасутся брони</title>
+	
+	<meta name="description" content="Социальная сеть и мультиблог по мотивам My Little Pony: Friendship is Magic">
+	<meta name="keywords" content="пони, брони, my little pony, friendship is magic">
+
+	<link rel='stylesheet' type='text/css' href='http://tabun.everypony.ru/templates/cache/synio/6ec25fb1dace5eff1c443b0156671a16.css' />
+
+
+	<link href="http://tabun.everypony.ru/templates/skin/synio/images/favicon.ico?v1" rel="shortcut icon" />
+	<link rel="search" type="application/opensearchdescription+xml" href="http://tabun.everypony.ru/search/opensearch/" title="Табун - место, где пасутся брони" />
+
+	
+			<link rel="canonical" href="http://tabun.everypony.ru/blogs/?order=blog_rating&order_way=desc" />
+	
+		<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-22560999-4']);
+		_gaq.push(['_trackPageview']);
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+	<script type="text/javascript">
+		function __42__getCookies() {
+			
+			if (typeof String.prototype.trimLeft !== "function") {
+    				String.prototype.trimLeft = function() {
+        				return this.replace(/^\s+/, "");
+    				};
+			}
+			if (typeof String.prototype.trimRight !== "function") {
+				String.prototype.trimRight = function() {
+					return this.replace(/\s+$/, "");
+    				};
+			}
+	
+        		var c = document.cookie, v = 0, cookies = {};
+		        if (document.cookie.match(/^\s*\$Version=(?:"1"|1);\s*(.*)/)) {
+            			c = RegExp.$1;
+            			v = 1;
+		        }
+        		if (v === 0) {
+            			c.split(/[,;]/).map(function(cookie) {
+                			var parts = cookie.split(/=/, 2),
+                    			name = decodeURIComponent(parts[0].trimLeft()),
+                    			value = parts.length > 1 ? decodeURIComponent(parts[1].trimRight()) : null;
+                			cookies[name] = value;
+            			});
+        		} else {
+            			c.match(/(?:^|\s+)([!#$%&'*+\-.0-9A-Z^`a-z|~]+)=([!#$%&'*+\-.0-9A-Z^`a-z|~]*|"(?:[\x20-\x7E\x80\xFF]|\\[\x00-\x7F])*")(?=\s*[,;]|$)/g).map(function($0, $1) {
+                			var name = $0,
+                    			value = $1.charAt(0) === '"'
+                              		? $1.substr(1, -1).replace(/\\(.)/g, "$1")
+                              		: $1;
+                			cookies[name] = value;
+            			});
+        		}
+        		return cookies;
+    		}
+		var DIR_WEB_ROOT 			= 'http://tabun.everypony.ru';
+		var DIR_STATIC_SKIN 		= 'http://tabun.everypony.ru/templates/skin/synio';
+		var DIR_ROOT_ENGINE_LIB 	= 'http://tabun.everypony.ru/engine/lib';
+		var LIVESTREET_SECURITY_KEY = 'af4a48576b878d8f837d3ada2bb197d8';
+		var SESSION_ID = __42__getCookies()['PHPSESSID'];
+		console.log(SESSION_ID);
+		var BLOG_USE_TINYMCE		= '';
+		
+		var TINYMCE_LANG = 'en';
+					TINYMCE_LANG = 'ru';
+		
+		var aRouter = new Array();
+					aRouter['error'] = 'http://tabun.everypony.ru/error/';
+					aRouter['registration'] = 'http://tabun.everypony.ru/registration/';
+					aRouter['profile'] = 'http://tabun.everypony.ru/profile/';
+					aRouter['my'] = 'http://tabun.everypony.ru/my/';
+					aRouter['blog'] = 'http://tabun.everypony.ru/blog/';
+					aRouter['personal_blog'] = 'http://tabun.everypony.ru/personal_blog/';
+					aRouter['index'] = 'http://tabun.everypony.ru/index/';
+					aRouter['topic'] = 'http://tabun.everypony.ru/topic/';
+					aRouter['login'] = 'http://tabun.everypony.ru/login/';
+					aRouter['people'] = 'http://tabun.everypony.ru/people/';
+					aRouter['settings'] = 'http://tabun.everypony.ru/settings/';
+					aRouter['tag'] = 'http://tabun.everypony.ru/tag/';
+					aRouter['talk'] = 'http://tabun.everypony.ru/talk/';
+					aRouter['comments'] = 'http://tabun.everypony.ru/comments/';
+					aRouter['rss'] = 'http://tabun.everypony.ru/rss/';
+					aRouter['question'] = 'http://tabun.everypony.ru/question/';
+					aRouter['blogs'] = 'http://tabun.everypony.ru/blogs/';
+					aRouter['search'] = 'http://tabun.everypony.ru/search/';
+					aRouter['admin'] = 'http://tabun.everypony.ru/admin/';
+					aRouter['ajax'] = 'http://tabun.everypony.ru/ajax/';
+					aRouter['feed'] = 'http://tabun.everypony.ru/feed/';
+					aRouter['stream'] = 'http://tabun.everypony.ru/stream/';
+					aRouter['subscribe'] = 'http://tabun.everypony.ru/subscribe/';
+					aRouter['language'] = 'http://tabun.everypony.ru/language/';
+					aRouter['file'] = 'http://tabun.everypony.ru/file/';
+					aRouter['page'] = 'http://tabun.everypony.ru/page/';
+					aRouter['role'] = 'http://tabun.everypony.ru/role/';
+					aRouter['role_ajax'] = 'http://tabun.everypony.ru/role_ajax/';
+					aRouter['role_people'] = 'http://tabun.everypony.ru/role_people/';
+					aRouter['sitemap'] = 'http://tabun.everypony.ru/sitemap/';
+					aRouter['tags'] = 'http://tabun.everypony.ru/tags/';
+					aRouter['talkbell'] = 'http://tabun.everypony.ru/talkbell/';
+			</script>
+	
+	
+	<script type='text/javascript' src='http://tabun.everypony.ru/templates/cache/synio/c3d208d693cac8c6b0e155dca89ed82b.js'></script>
+<!--[if lt IE 9]><script type='text/javascript' src='http://tabun.everypony.ru/engine/lib/external/html5shiv.js'></script><![endif]-->
+<script type='text/javascript' src='http://yandex.st/share/share.js'></script>
+
+
+	
+	<script type="text/javascript">
+		var tinyMCE = false;
+		ls.lang.load({"blog_join":"\u041f\u043e\u0434\u043f\u0438\u0441\u0430\u0442\u044c\u0441\u044f \u043d\u0430 \u0431\u043b\u043e\u0433","blog_leave":"\u041e\u0442\u043f\u0438\u0441\u0430\u0442\u044c\u0441\u044f \u043e\u0442 \u0431\u043b\u043e\u0433\u0430"});
+		ls.registry.set('comment_max_tree',60);
+		ls.registry.set('block_stream_show_tip',false);
+	</script>
+	
+	<script type="text/javascript">
+	var LS_ROUTER_ACTION = 'blogs';
+	var LS_ROUTER_EVENT = '';
+</script>
+
+</head>
+
+
+
+		
+	
+	
+
+
+
+
+
+
+<body class=" ls-user-role-user ls-user-role-not-admin ls-template-synio width-fixed">
+	
+	
+	
+			<div class="modal modal-write" id="modal_write">
+	<header class="modal-header">
+		<a href="#" class="close jqmClose"></a>
+	</header>
+	
+	<div class="modal-content"><ul class="write-list"><li class="write-item-type-topic"><a href="http://tabun.everypony.ru/topic/add" class="write-item-image"></a><a href="http://tabun.everypony.ru/topic/add" class="write-item-link">Пост</a></li><li class="write-item-type-blog"><a href="http://tabun.everypony.ru/blog/add" class="write-item-image"></a><a href="http://tabun.everypony.ru/blog/add" class="write-item-link">Блог</a></li><li class="write-item-type-message"><a href="http://tabun.everypony.ru/talk/add" class="write-item-image"></a><a href="http://tabun.everypony.ru/talk/add" class="write-item-link">Сообщение</a></li><li class="write-item-type-file">
+  <a class="write-item-image" href="http://tabun.everypony.ru/file/add/"></a>
+  <a class="write-item-link" href="http://tabun.everypony.ru/file/add/">Файл</a>
+</li></ul></div>
+</div>
+	
+			<div id="favourite-form-tags" class="modal">
+		<header class="modal-header">
+			<h3>Добавить свои теги</h3>
+			<a href="#" class="close jqmClose"></a>
+		</header>
+		
+		
+		<form onsubmit="return ls.favourite.saveTags(this);" class="modal-content">
+			<input type="hidden" name="target_type" id="favourite-form-tags-target-type">
+			<input type="hidden" name="target_id" id="favourite-form-tags-target-id">
+
+			<p><input type="text" name="tags" value="" id="favourite-form-tags-tags" class="autocomplete-tags-sep input-text input-width-full"></p>
+			<button type="submit" class="button button-primary">Сохранить</button>
+			<button type="submit" class="button jqmClose">Отмена</button>
+		</form>
+	</div>
+
+		
+	<div id="widemode">
+<!--		<span id="tabun-fixes-chronology">
+			<a href="javascript:void(0)" id="tabun-fixes-chronology-plus">-1</a>
+			<div id="tabun-fixes-chronology-timeline"><div id="tabun-fixes-chronology-slider"></div></div>
+			<a href="javascript:void(0)" id="tabun-fixes-chronology-minus">+1</a>
+		</span>
+-->
+		<a id="despoil">Despoil</a>
+		<a id="widemode-switch">Wide mode &harr;</a>
+		<a id="up-switch"></a>
+		<a id="down-switch"></a>
+	</div>
+	
+	<div id="container" class="">
+		<div id="c-header">
+	
+	<ul class="main-menu">
+		<li id="logolink"><a href="http://tabun.everypony.ru">Да, это — Табун!</a></li>
+		
+		<li><a href="http://everypony.ru">Блог</a></li>
+		<li><a href="http://forum.everypony.ru">Форум</a></li>
+		<li><a href="http://stories.everypony.ru">Рассказы</a></li>
+		<li><a href="http://wiki.everypony.ru">Вики</a></li>
+		<li><a href="http://minecraft.everypony.ru">Майнкрафт</a></li>
+	</ul>	
+	
+	<a class="rss" href="http://tabun.everypony.ru/rss/" title="RSS поток Табуна"></a>
+	<a class="twitter" href="https://twitter.com/#!/everypony_ru" title="Твиттер Everypony.ru"></a>
+</div>
+<header id="header" role="banner">
+		
+	
+	<ul class="nav nav-main" id="nav-main">
+			<li><a href="http://tabun.everypony.ru/topic/add/" class="button-write js-write-window-show" id="modal_write_show">Создать</a></li>
+			<li ><a href="http://tabun.everypony.ru">Посты</a></li>
+		<li class="active"><a href="http://tabun.everypony.ru/blogs/">Блоги</a></li>
+		<li ><a href="http://tabun.everypony.ru/people/">Брони</a></li>
+		<li ><a href="http://tabun.everypony.ru/stream/">Активность</a></li>
+
+			<li ><a href="http://tabun.everypony.ru/page/faq/" >FAQ (новичкам)</a><i></i></li>
+	
+	</ul>
+
+				
+		
+		
+
+
+	
+	
+	
+			<div class="dropdown-user" id="dropdown-user">
+			<a href="http://tabun.everypony.ru/profile/Hibonicus/"><img src="http://tabun.everypony.ru/uploads/images/00/13/56/2014/09/26/avatar_100x100.jpg?175519" alt="avatar" class="avatar" /></a>
+			<a href="http://tabun.everypony.ru/profile/Hibonicus/" class="username">Hibonicus</a>
+			
+			<ul class="dropdown-user-menu" id="dropdown-user-menu">
+				
+				<li class="item-messages">
+					<a href="http://tabun.everypony.ru/talk/" id="new_messages">
+						Сообщения
+					</a>
+								</li>
+				<li class="item-favourite"><a href="http://tabun.everypony.ru/profile/Hibonicus/favourites/topics/">Избранное</a></li> 
+				<li class="item-settings"><a href="http://tabun.everypony.ru/settings/profile/">Настройки</a></li>
+				
+				<li class="item-signout"><a href="http://tabun.everypony.ru/login/exit/?security_ls_key=af4a48576b878d8f837d3ada2bb197d8">Выход</a></li>
+			</ul>
+			<ul class="dropdown-user-menu">
+				<li class="item-stat">
+					<span class="strength" title="Силушка"><i class="icon-synio-star-green"></i> 10686.45</span>
+				</li>
+				<li>
+				<span class="rating " title="Кармочка"><i class="icon-synio-rating"></i> 1076.93</span>
+					
+				</li>
+			</ul>
+		</div>
+		
+	
+	
+	<nav id="nav">	
+	</nav>
+</header>
+
+		
+
+		<div id="wrapper" class="">
+							<aside id="sidebar" >
+<section class="running-ponies">
+	<div class="block-content" id="running_ponies">
+        	<img src="http://files.everypony.ru/tabun/ponies/?1"/>
+        	<img src="http://files.everypony.ru/tabun/ponies/?2"/>
+        	<img src="http://files.everypony.ru/tabun/ponies/?3"/>
+        	<img src="http://files.everypony.ru/tabun/ponies/?4"/>
+        	<img src="http://files.everypony.ru/tabun/ponies/?5"/>
+	</div>
+</section>
+	
+
+						<section class="block block-type-pseudomenu">
+	<ul>
+		<li><a href="http://smile-o-pack.net/">Смайлопак</a></li>
+		<li><a href="http://tabun.everypony.ru/page/draw/">Рисование</a></li>
+		<li><a href="http://tabun.everypony.ru/tags/">Теги</a></li>
+	</ul>
+</section>
+
+<section class="block block-type-search">
+	<div class="search-header">		
+		<form class="search-header-form" id="search-header-form" action="http://tabun.everypony.ru/search/topics/">
+			<input type="text" placeholder="Поиск" maxlength="255" name="q" class="input-text">
+			<input type="submit" value="" title="Найти" class="input-submit">
+		</form>
+	</div>
+</section>
+
+<section class="block block-type-stream">
+	
+
+	<header class="block-header sep">
+		<h3><a href="http://tabun.everypony.ru/comments/" title="Весь эфир">Прямой эфир</a></h3>
+		
+		<ul class="nav nav-pills js-block-stream-nav" >
+			<li class="active js-block-stream-item" data-type="comment"><a href="#">Комментарии</a></li>
+			<li class="js-block-stream-item" data-type="topic"><a href="#">Публикации</a></li>
+			<div class="block-update js-block-stream-update"></div>
+			
+		</ul>
+		
+		<ul class="nav nav-pills js-block-stream-dropdown" style="display: none;">
+			<li class="dropdown active js-block-stream-dropdown-trigger"><a href="#">Комментарии</a> <i class="icon-synio-arrows"></i>
+				<ul class="dropdown-menu js-block-stream-dropdown-items">
+					<li class="active js-block-stream-item" data-type="comment"><a href="#">Комментарии</a></li>
+					<li class="js-block-stream-item" data-type="topic"><a href="#">Публикации</a></li>
+					
+				</ul>
+			</li>
+		</ul>
+	</header>
+	
+	<div class="block-content">
+		<div class="js-block-stream-content">
+			<ul class="latest-list">
+									
+		<li class="js-title-comment">
+			<p>
+				<a href="http://tabun.everypony.ru/profile/Artalus/" class="author">Artalus</a> в <a href="http://tabun.everypony.ru/blog/rubronycon/" class="stream-blog">RuBronyCon</a>  
+			</p>
+			<a href="http://tabun.everypony.ru/comments/7813615" class="stream-topic">Filly Feathers Festival 2 расписание и как проехать.</a>
+			<span class="block-item-comments"><i class="icon-synio-comments-small"></i>14</span>
+		</li>
+									
+		<li class="js-title-comment">
+			<p>
+				<a href="http://tabun.everypony.ru/profile/LUNA_HG/" class="author">LUNA_HG</a> в <a href="http://tabun.everypony.ru/profile/Fluttermina/created/topics/" class="stream-blog">Блог им. Fluttermina</a>  
+			</p>
+			<a href="http://tabun.everypony.ru/comments/7813612" class="stream-topic">Хэллоуин Флаттермины.</a>
+			<span class="block-item-comments"><i class="icon-synio-comments-small"></i>7</span>
+		</li>
+									
+		<li class="js-title-comment">
+			<p>
+				<a href="http://tabun.everypony.ru/profile/Alukart/" class="author">Alukart</a> в <a href="http://tabun.everypony.ru/blog/herp_derp/" class="stream-blog">HERP DERP</a>  
+			</p>
+			<a href="http://tabun.everypony.ru/comments/7813601" class="stream-topic">Понифицируй свои пальцы и полку в ванной комнате</a>
+			<span class="block-item-comments"><i class="icon-synio-comments-small"></i>41</span>
+		</li>
+									
+		<li class="js-title-comment">
+			<p>
+				<a href="http://tabun.everypony.ru/profile/KaskeT/" class="author">KaskeT</a> в <a href="http://tabun.everypony.ru/blog/rpwp/" class="stream-blog">Пони-экспромт</a>  
+			</p>
+			<a href="http://tabun.everypony.ru/comments/7813592" class="stream-topic">&quot;Эквестрийские истории II&quot;. RPWP-edition. Отчётный пост №1</a>
+			<span class="block-item-comments"><i class="icon-synio-comments-small"></i>57</span>
+		</li>
+									
+		<li class="js-title-comment">
+			<p>
+				<a href="http://tabun.everypony.ru/profile/Kerrovitarr/" class="author">Kerrovitarr</a> в <a href="http://tabun.everypony.ru/blog/lighthouse/" class="stream-blog">Батальон &quot;Цаликон&quot;</a>  
+			</p>
+			<a href="http://tabun.everypony.ru/comments/7813589" class="stream-topic">Чат-пост #134 им. моего фетиша</a>
+			<span class="block-item-comments"><i class="icon-synio-comments-small"></i>1214</span>
+		</li>
+									
+		<li class="js-title-comment">
+			<p>
+				<a href="http://tabun.everypony.ru/profile/Octavian/" class="author">Octavian</a> в <a href="http://tabun.everypony.ru/blog/BRM-KBECT/" class="stream-blog">Блог Арт-Батлов</a>  
+			</p>
+			<a href="http://tabun.everypony.ru/comments/7813587" class="stream-topic">Объявление. Арт-Баттл 2014.11.01.</a>
+			<span class="block-item-comments"><i class="icon-synio-comments-small"></i>75</span>
+		</li>
+									
+		<li class="js-title-comment">
+			<p>
+				<a href="http://tabun.everypony.ru/profile/mortifera/" class="author">mortifera</a> в <a href="http://tabun.everypony.ru/blog/rpwp/" class="stream-blog">Пони-экспромт</a>  
+			</p>
+			<a href="http://tabun.everypony.ru/comments/7813574" class="stream-topic">RPWP 77 закрыт! 7 работ</a>
+			<span class="block-item-comments"><i class="icon-synio-comments-small"></i>189</span>
+		</li>
+									
+		<li class="js-title-comment">
+			<p>
+				<a href="http://tabun.everypony.ru/profile/Kirikiri/" class="author">Kirikiri</a> в <a href="http://tabun.everypony.ru/blog/ask_blogs/" class="stream-blog">Аск-блоги ОСов</a>  
+			</p>
+			<a href="http://tabun.everypony.ru/comments/7813573" class="stream-topic">Познакомимся с Дикс?</a>
+			<span class="block-item-comments"><i class="icon-synio-comments-small"></i>123</span>
+		</li>
+									
+		<li class="js-title-comment">
+			<p>
+				<a href="http://tabun.everypony.ru/profile/Polex/" class="author">Polex</a> в <a href="http://tabun.everypony.ru/blog/fanart/" class="stream-blog">Я рисую обоими копытами</a>  
+			</p>
+			<a href="http://tabun.everypony.ru/comments/7813560" class="stream-topic">Просто Трикси</a>
+			<span class="block-item-comments"><i class="icon-synio-comments-small"></i>14</span>
+		</li>
+									
+		<li class="js-title-comment">
+			<p>
+				<a href="http://tabun.everypony.ru/profile/Kagamine/" class="author">Kagamine</a> в <a href="http://tabun.everypony.ru/blog/congratulations/" class="stream-blog">Блог поздравляшек</a>  
+			</p>
+			<a href="http://tabun.everypony.ru/comments/7813556" class="stream-topic">Скромное поздравление без лишних шумов.</a>
+			<span class="block-item-comments"><i class="icon-synio-comments-small"></i>10</span>
+		</li>
+									
+		<li class="js-title-comment">
+			<p>
+				<a href="http://tabun.everypony.ru/profile/Alukart/" class="author">Alukart</a> в <a href="http://tabun.everypony.ru/blog/toymerchandise/" class="stream-blog">Коллекционеры игрушек</a>  
+			</p>
+			<a href="http://tabun.everypony.ru/comments/7813555" class="stream-topic">Новые Функо? Светящиеся во Тьме.</a>
+			<span class="block-item-comments"><i class="icon-synio-comments-small"></i>18</span>
+		</li>
+									
+		<li class="js-title-comment">
+			<p>
+				<a href="http://tabun.everypony.ru/profile/TotallyNotABrony/" class="author">TotallyNotABrony</a> в <a href="http://tabun.everypony.ru/blog/draw_blog/" class="stream-blog">Рисовальный Блог</a>  
+			</p>
+			<a href="http://tabun.everypony.ru/comments/7813530" class="stream-topic">Новая ОС</a>
+			<span class="block-item-comments"><i class="icon-synio-comments-small"></i>13</span>
+		</li>
+									
+		<li class="js-title-comment">
+			<p>
+				<a href="http://tabun.everypony.ru/profile/Dimone/" class="author">Dimone</a> в <a href="http://tabun.everypony.ru/profile/Ivan_Magregor/created/topics/" class="stream-blog">Блог им. Ivan_Magregor</a>  
+			</p>
+			<a href="http://tabun.everypony.ru/comments/7813520" class="stream-topic">Схола Прогениум</a>
+			<span class="block-item-comments"><i class="icon-synio-comments-small"></i>8</span>
+		</li>
+									
+		<li class="js-title-comment">
+			<p>
+				<a href="http://tabun.everypony.ru/profile/Requiem/" class="author">Requiem</a> в <a href="http://tabun.everypony.ru/blog/herp_derp/" class="stream-blog">HERP DERP</a>  
+			</p>
+			<a href="http://tabun.everypony.ru/comments/7813509" class="stream-topic">Flappyhunt</a>
+			<span class="block-item-comments"><i class="icon-synio-comments-small"></i>4</span>
+		</li>
+									
+		<li class="js-title-comment">
+			<p>
+				<a href="http://tabun.everypony.ru/profile/Octavian/" class="author">Octavian</a> в <a href="http://tabun.everypony.ru/blog/fanart/" class="stream-blog">Я рисую обоими копытами</a>  
+			</p>
+			<a href="http://tabun.everypony.ru/comments/7813403" class="stream-topic">Счастливой Ночи кошмаров, смертные...</a>
+			<span class="block-item-comments"><i class="icon-synio-comments-small"></i>17</span>
+		</li>
+									
+		<li class="js-title-comment">
+			<p>
+				<a href="http://tabun.everypony.ru/profile/Kirikiri/" class="author">Kirikiri</a> в <a href="http://tabun.everypony.ru/blog/fanart/" class="stream-blog">Я рисую обоими копытами</a>  
+			</p>
+			<a href="http://tabun.everypony.ru/comments/7813304" class="stream-topic">C Днем Всех Святых!</a>
+			<span class="block-item-comments"><i class="icon-synio-comments-small"></i>2</span>
+		</li>
+									
+		<li class="js-title-comment">
+			<p>
+				<a href="http://tabun.everypony.ru/profile/Wolfram/" class="author">Wolfram</a> в <a href="http://tabun.everypony.ru/blog/Circus/" class="stream-blog">Центр Интеллектуального Развития Коней и Кобылок</a>  
+			</p>
+			<a href="http://tabun.everypony.ru/comments/7813283" class="stream-topic">Немного пояпошимся)))</a>
+			<span class="block-item-comments"><i class="icon-synio-comments-small"></i>27</span>
+		</li>
+									
+		<li class="js-title-comment">
+			<p>
+				<a href="http://tabun.everypony.ru/profile/Cypher/" class="author">Cypher</a> в <a href="http://tabun.everypony.ru/blog/fanart/" class="stream-blog">Я рисую обоими копытами</a>  
+			</p>
+			<a href="http://tabun.everypony.ru/comments/7813257" class="stream-topic">Зекорыч в костюмчике на Хэллоуин</a>
+			<span class="block-item-comments"><i class="icon-synio-comments-small"></i>9</span>
+		</li>
+									
+		<li class="js-title-comment">
+			<p>
+				<a href="http://tabun.everypony.ru/profile/Alukart/" class="author">Alukart</a> в <a href="http://tabun.everypony.ru/blog/fanart/" class="stream-blog">Я рисую обоими копытами</a>  
+			</p>
+			<a href="http://tabun.everypony.ru/comments/7813225" class="stream-topic">Няшная Соната</a>
+			<span class="block-item-comments"><i class="icon-synio-comments-small"></i>45</span>
+		</li>
+									
+		<li class="js-title-comment">
+			<p>
+				<a href="http://tabun.everypony.ru/profile/Krueger/" class="author">Krueger</a> в <a href="http://tabun.everypony.ru/blog/fanart/" class="stream-blog">Я рисую обоими копытами</a>  
+			</p>
+			<a href="http://tabun.everypony.ru/comments/7813174" class="stream-topic">Счастливой ночи кошмаров с:</a>
+			<span class="block-item-comments"><i class="icon-synio-comments-small"></i>62</span>
+		</li>
+	</ul>
+
+
+<footer>
+	<a href="http://tabun.everypony.ru/comments/">Весь эфир</a> · <a href="http://tabun.everypony.ru/rss/allcomments/">RSS</a>
+</footer>
+		</div>
+	</div>
+</section>
+
+<section class="block block-type-tags">
+        <header class="block-header sep"><h3>Разум Табуна</h3></header>
+	<div class="quote"><strong>xxx:</strong> Ладно, всё посоны, я пошёл сдаваться. Если меня постигнет неудача, мы больше не увидимся.<br>
+<strong>yyy:</strong> Удачи тебе. Сломай ногу. Экзаменатору.</div>
+</section>
+
+<div class="napony"><a target="_blank" title="На шерстяные носочки для принцессы Луны." href="http://everypony.ru/ehelp/"><img title="На шерстяные носочки для принцессы Луны." alt="Донат" src="http://everypony.ru/wp-content/themes/newpony/i/donate.png" style="opacity: 1;"></a></div>
+
+					
+</aside>
+
+					
+			<div id="content-wrapper" >
+				<div id="content" role="main" >
+					
+						
+
+	
+					
+					
+
+
+<h2 class="page-header">Блоги</h2>
+
+<form action="" method="POST" id="form-blogs-search" onsubmit="return false;" class="search-item">
+	<div class="search-input-wrapper">
+		<input type="text" placeholder="Поиск по названию" autocomplete="off" name="blog_title" class="input-text" value="" onkeyup="ls.timer.run(ls.blog.searchBlogs,'blogs_search',['form-blogs-search'],1000);">
+		<div class="input-submit" onclick="jQuery('#form-blogs-search').submit()"></div>
+	</div>
+</form>
+
+<div id="blogs-list-search" style="display:none;"></div>
+
+<div id="blogs-list-original">
+	
+	<table class="table table-blogs" cellspacing="0">
+			<thead>
+			<tr>
+				<th class="cell-info">&nbsp;</th>
+				<th class="cell-name cell-tab">
+					<div class="cell-tab-inner "><a href="http://tabun.everypony.ru/blogs/?order=blog_title&order_way=desc" ><span>Название</span></a></div>
+				</th>
+
+									<th class="cell-join">&nbsp;</th>
+				
+				<th class="cell-readers cell-tab">
+					<div class="cell-tab-inner "><a href="http://tabun.everypony.ru/blogs/?order=blog_count_user&order_way=desc" ><span>Читателей</span></a></div>
+				</th>
+				<th class="cell-rating cell-tab align-center">
+					<div class="cell-tab-inner active"><a href="http://tabun.everypony.ru/blogs/?order=blog_rating&order_way=asc" class="desc"><span>Рейтинг</span></a></div>
+				</th>
+			</tr>
+		</thead>
+		
+	
+	<tbody>
+									
+				<tr>
+					<td class="cell-info">
+						<a href="#" onclick="return ls.infobox.showInfoBlog(this,5);" class="blog-list-info"></a>
+					</td>
+					<td class="cell-name">
+						<p>
+							<a href="http://tabun.everypony.ru/blog/fanart/" class="blog-name">Я рисую обоими копытами</a>
+							
+													</p>
+						
+						<span class="user-avatar">
+							<a href="http://tabun.everypony.ru/profile/Random/"><img src="http://tabun.everypony.ru/templates/skin/synio/images/avatar_male_24x24.png" alt="avatar" /></a>
+							<a href="http://tabun.everypony.ru/profile/Random/">Random</a>
+						</span>
+					</td>
+
+											<td class="cell-join">
+															<button type="submit"  onclick="ls.blog.toggleJoin(this, 5); return false;" class="button button-action button-action-join active">
+									<i class="icon-synio-join"></i>
+									<span>Отписаться от блога</span>
+								</button>
+													</td>
+					
+					<td class="cell-readers" id="blog_user_count_5">4257</td>
+					<td class="cell-rating align-center ">7017.91</td>
+				</tr>
+							
+				<tr>
+					<td class="cell-info">
+						<a href="#" onclick="return ls.infobox.showInfoBlog(this,2657);" class="blog-list-info"></a>
+					</td>
+					<td class="cell-name">
+						<p>
+							<a href="http://tabun.everypony.ru/blog/press-center/" class="blog-name">Пони-пресса</a>
+							
+													</p>
+						
+						<span class="user-avatar">
+							<a href="http://tabun.everypony.ru/profile/one_more/"><img src="http://tabun.everypony.ru/uploads/images/00/16/16/2014/02/26/avatar_24x24.jpg?231321" alt="avatar" /></a>
+							<a href="http://tabun.everypony.ru/profile/one_more/">one_more</a>
+						</span>
+					</td>
+
+											<td class="cell-join">
+															<button type="submit"  onclick="ls.blog.toggleJoin(this, 2657); return false;" class="button button-action button-action-join ">
+									<i class="icon-synio-join"></i>
+									<span>Подписаться на блог</span>
+								</button>
+													</td>
+					
+					<td class="cell-readers" id="blog_user_count_2657">1441</td>
+					<td class="cell-rating align-center ">4131.78</td>
+				</tr>
+							
+				<tr>
+					<td class="cell-info">
+						<a href="#" onclick="return ls.infobox.showInfoBlog(this,7);" class="blog-list-info"></a>
+					</td>
+					<td class="cell-name">
+						<p>
+							<a href="http://tabun.everypony.ru/blog/translations/" class="blog-name">Гильдия переводчиков</a>
+							
+													</p>
+						
+						<span class="user-avatar">
+							<a href="http://tabun.everypony.ru/profile/Random/"><img src="http://tabun.everypony.ru/templates/skin/synio/images/avatar_male_24x24.png" alt="avatar" /></a>
+							<a href="http://tabun.everypony.ru/profile/Random/">Random</a>
+						</span>
+					</td>
+
+											<td class="cell-join">
+															<button type="submit"  onclick="ls.blog.toggleJoin(this, 7); return false;" class="button button-action button-action-join ">
+									<i class="icon-synio-join"></i>
+									<span>Подписаться на блог</span>
+								</button>
+													</td>
+					
+					<td class="cell-readers" id="blog_user_count_7">1755</td>
+					<td class="cell-rating align-center ">3775.43</td>
+				</tr>
+							
+				<tr>
+					<td class="cell-info">
+						<a href="#" onclick="return ls.infobox.showInfoBlog(this,193);" class="blog-list-info"></a>
+					</td>
+					<td class="cell-name">
+						<p>
+							<a href="http://tabun.everypony.ru/blog/herp_derp/" class="blog-name">HERP DERP</a>
+							
+													</p>
+						
+						<span class="user-avatar">
+							<a href="http://tabun.everypony.ru/profile/PinkiePie/"><img src="http://tabun.everypony.ru/uploads/images/00/00/32/2011/09/17/avatar_24x24.png?193634" alt="avatar" /></a>
+							<a href="http://tabun.everypony.ru/profile/PinkiePie/">PinkiePie</a>
+						</span>
+					</td>
+
+											<td class="cell-join">
+															<button type="submit"  onclick="ls.blog.toggleJoin(this, 193); return false;" class="button button-action button-action-join active">
+									<i class="icon-synio-join"></i>
+									<span>Отписаться от блога</span>
+								</button>
+													</td>
+					
+					<td class="cell-readers" id="blog_user_count_193">1980</td>
+					<td class="cell-rating align-center ">3395.52</td>
+				</tr>
+							
+				<tr>
+					<td class="cell-info">
+						<a href="#" onclick="return ls.infobox.showInfoBlog(this,4854);" class="blog-list-info"></a>
+					</td>
+					<td class="cell-name">
+						<p>
+							<a href="http://tabun.everypony.ru/blog/draw_help/" class="blog-name">Блог помощи художникам [БПНХ]</a>
+							
+													</p>
+						
+						<span class="user-avatar">
+							<a href="http://tabun.everypony.ru/profile/feng-shui/"><img src="http://tabun.everypony.ru/uploads/images/00/36/57/2012/05/22/avatar_24x24.png?031349" alt="avatar" /></a>
+							<a href="http://tabun.everypony.ru/profile/feng-shui/">feng-shui</a>
+						</span>
+					</td>
+
+											<td class="cell-join">
+															<button type="submit"  onclick="ls.blog.toggleJoin(this, 4854); return false;" class="button button-action button-action-join ">
+									<i class="icon-synio-join"></i>
+									<span>Подписаться на блог</span>
+								</button>
+													</td>
+					
+					<td class="cell-readers" id="blog_user_count_4854">2039</td>
+					<td class="cell-rating align-center ">3305.65</td>
+				</tr>
+							
+				<tr>
+					<td class="cell-info">
+						<a href="#" onclick="return ls.infobox.showInfoBlog(this,6);" class="blog-list-info"></a>
+					</td>
+					<td class="cell-name">
+						<p>
+							<a href="http://tabun.everypony.ru/blog/stories/" class="blog-name">Пони-писатели</a>
+							
+													</p>
+						
+						<span class="user-avatar">
+							<a href="http://tabun.everypony.ru/profile/Random/"><img src="http://tabun.everypony.ru/templates/skin/synio/images/avatar_male_24x24.png" alt="avatar" /></a>
+							<a href="http://tabun.everypony.ru/profile/Random/">Random</a>
+						</span>
+					</td>
+
+											<td class="cell-join">
+															<button type="submit"  onclick="ls.blog.toggleJoin(this, 6); return false;" class="button button-action button-action-join ">
+									<i class="icon-synio-join"></i>
+									<span>Подписаться на блог</span>
+								</button>
+													</td>
+					
+					<td class="cell-readers" id="blog_user_count_6">1675</td>
+					<td class="cell-rating align-center ">3191.15</td>
+				</tr>
+							
+				<tr>
+					<td class="cell-info">
+						<a href="#" onclick="return ls.infobox.showInfoBlog(this,4419);" class="blog-list-info"></a>
+					</td>
+					<td class="cell-name">
+						<p>
+							<a href="http://tabun.everypony.ru/blog/science/" class="blog-name">Эквестрийский аналитический отдел</a>
+							
+													</p>
+						
+						<span class="user-avatar">
+							<a href="http://tabun.everypony.ru/profile/Pegazs/"><img src="http://tabun.everypony.ru/uploads/images/00/28/54/2013/02/03/avatar_24x24.jpg?144343" alt="avatar" /></a>
+							<a href="http://tabun.everypony.ru/profile/Pegazs/">Pegazs</a>
+						</span>
+					</td>
+
+											<td class="cell-join">
+															<button type="submit"  onclick="ls.blog.toggleJoin(this, 4419); return false;" class="button button-action button-action-join ">
+									<i class="icon-synio-join"></i>
+									<span>Подписаться на блог</span>
+								</button>
+													</td>
+					
+					<td class="cell-readers" id="blog_user_count_4419">1111</td>
+					<td class="cell-rating align-center ">3098.97</td>
+				</tr>
+							
+				<tr>
+					<td class="cell-info">
+						<a href="#" onclick="return ls.infobox.showInfoBlog(this,407);" class="blog-list-info"></a>
+					</td>
+					<td class="cell-name">
+						<p>
+							<a href="http://tabun.everypony.ru/blog/night-ponyville/" class="blog-name">Понивиль После Полуночи</a>
+							
+															<i title="Закрытый блог" class="icon-synio-topic-private"></i>
+													</p>
+						
+						<span class="user-avatar">
+							<a href="http://tabun.everypony.ru/profile/GaPAoT/"><img src="http://tabun.everypony.ru/uploads/images/00/00/06/2012/11/06/avatar_24x24.png?212125" alt="avatar" /></a>
+							<a href="http://tabun.everypony.ru/profile/GaPAoT/">GaPAoT</a>
+						</span>
+					</td>
+
+											<td class="cell-join">
+															&mdash;
+													</td>
+					
+					<td class="cell-readers" id="blog_user_count_407">764</td>
+					<td class="cell-rating align-center ">2809.89</td>
+				</tr>
+							
+				<tr>
+					<td class="cell-info">
+						<a href="#" onclick="return ls.infobox.showInfoBlog(this,5657);" class="blog-list-info"></a>
+					</td>
+					<td class="cell-name">
+						<p>
+							<a href="http://tabun.everypony.ru/blog/comicsworkshop/" class="blog-name">Цех комиксов</a>
+							
+													</p>
+						
+						<span class="user-avatar">
+							<a href="http://tabun.everypony.ru/profile/GlennWitcher/"><img src="http://tabun.everypony.ru/uploads/images/00/36/59/2013/02/04/avatar_24x24.gif?231000" alt="avatar" /></a>
+							<a href="http://tabun.everypony.ru/profile/GlennWitcher/">GlennWitcher</a>
+						</span>
+					</td>
+
+											<td class="cell-join">
+															<button type="submit"  onclick="ls.blog.toggleJoin(this, 5657); return false;" class="button button-action button-action-join ">
+									<i class="icon-synio-join"></i>
+									<span>Подписаться на блог</span>
+								</button>
+													</td>
+					
+					<td class="cell-readers" id="blog_user_count_5657">1494</td>
+					<td class="cell-rating align-center ">2529.46</td>
+				</tr>
+							
+				<tr>
+					<td class="cell-info">
+						<a href="#" onclick="return ls.infobox.showInfoBlog(this,332);" class="blog-list-info"></a>
+					</td>
+					<td class="cell-name">
+						<p>
+							<a href="http://tabun.everypony.ru/blog/Order_of_Luna/" class="blog-name">Орден Луны</a>
+							
+													</p>
+						
+						<span class="user-avatar">
+							<a href="http://tabun.everypony.ru/profile/Orhideous/"><img src="http://tabun.everypony.ru/uploads/images/00/00/07/2012/11/01/avatar_24x24.png?202836" alt="avatar" /></a>
+							<a href="http://tabun.everypony.ru/profile/Orhideous/">Orhideous</a>
+						</span>
+					</td>
+
+											<td class="cell-join">
+															<button type="submit"  onclick="ls.blog.toggleJoin(this, 332); return false;" class="button button-action button-action-join active">
+									<i class="icon-synio-join"></i>
+									<span>Отписаться от блога</span>
+								</button>
+													</td>
+					
+					<td class="cell-readers" id="blog_user_count_332">1495</td>
+					<td class="cell-rating align-center ">2517.53</td>
+				</tr>
+							
+				<tr>
+					<td class="cell-info">
+						<a href="#" onclick="return ls.infobox.showInfoBlog(this,3309);" class="blog-list-info"></a>
+					</td>
+					<td class="cell-name">
+						<p>
+							<a href="http://tabun.everypony.ru/blog/Public_Radio_of_the_herd/" class="blog-name">ОРТ</a>
+							
+													</p>
+						
+						<span class="user-avatar">
+							<a href="http://tabun.everypony.ru/profile/Asstain/"><img src="http://tabun.everypony.ru/uploads/images/00/15/49/2013/02/02/avatar_24x24.jpg?130649" alt="avatar" /></a>
+							<a href="http://tabun.everypony.ru/profile/Asstain/">Asstain</a>
+						</span>
+					</td>
+
+											<td class="cell-join">
+															<button type="submit"  onclick="ls.blog.toggleJoin(this, 3309); return false;" class="button button-action button-action-join ">
+									<i class="icon-synio-join"></i>
+									<span>Подписаться на блог</span>
+								</button>
+													</td>
+					
+					<td class="cell-readers" id="blog_user_count_3309">873</td>
+					<td class="cell-rating align-center ">2502.17</td>
+				</tr>
+							
+				<tr>
+					<td class="cell-info">
+						<a href="#" onclick="return ls.infobox.showInfoBlog(this,8);" class="blog-list-info"></a>
+					</td>
+					<td class="cell-name">
+						<p>
+							<a href="http://tabun.everypony.ru/blog/crafting/" class="blog-name">Крафтеры и рукоделы</a>
+							
+													</p>
+						
+						<span class="user-avatar">
+							<a href="http://tabun.everypony.ru/profile/Random/"><img src="http://tabun.everypony.ru/templates/skin/synio/images/avatar_male_24x24.png" alt="avatar" /></a>
+							<a href="http://tabun.everypony.ru/profile/Random/">Random</a>
+						</span>
+					</td>
+
+											<td class="cell-join">
+															<button type="submit"  onclick="ls.blog.toggleJoin(this, 8); return false;" class="button button-action button-action-join ">
+									<i class="icon-synio-join"></i>
+									<span>Подписаться на блог</span>
+								</button>
+													</td>
+					
+					<td class="cell-readers" id="blog_user_count_8">1462</td>
+					<td class="cell-rating align-center ">2421.32</td>
+				</tr>
+							
+				<tr>
+					<td class="cell-info">
+						<a href="#" onclick="return ls.infobox.showInfoBlog(this,15558);" class="blog-list-info"></a>
+					</td>
+					<td class="cell-name">
+						<p>
+							<a href="http://tabun.everypony.ru/blog/lighthouse/" class="blog-name">Батальон &quot;Цаликон&quot;</a>
+							
+															<i title="Закрытый блог" class="icon-synio-topic-private"></i>
+													</p>
+						
+						<span class="user-avatar">
+							<a href="http://tabun.everypony.ru/profile/Liksys/"><img src="http://tabun.everypony.ru/uploads/images/00/07/51/2013/01/13/avatar_24x24.png?192850" alt="avatar" /></a>
+							<a href="http://tabun.everypony.ru/profile/Liksys/">Liksys</a>
+						</span>
+					</td>
+
+											<td class="cell-join">
+															&mdash;
+													</td>
+					
+					<td class="cell-readers" id="blog_user_count_15558">331</td>
+					<td class="cell-rating align-center ">2352.19</td>
+				</tr>
+							
+				<tr>
+					<td class="cell-info">
+						<a href="#" onclick="return ls.infobox.showInfoBlog(this,5906);" class="blog-list-info"></a>
+					</td>
+					<td class="cell-name">
+						<p>
+							<a href="http://tabun.everypony.ru/blog/rule63/" class="blog-name">Лаборатория №63</a>
+							
+													</p>
+						
+						<span class="user-avatar">
+							<a href="http://tabun.everypony.ru/profile/alexiy777/"><img src="http://tabun.everypony.ru/uploads/images/00/13/05/2013/10/09/avatar_24x24.png?153219" alt="avatar" /></a>
+							<a href="http://tabun.everypony.ru/profile/alexiy777/">alexiy777</a>
+						</span>
+					</td>
+
+											<td class="cell-join">
+															<button type="submit"  onclick="ls.blog.toggleJoin(this, 5906); return false;" class="button button-action button-action-join ">
+									<i class="icon-synio-join"></i>
+									<span>Подписаться на блог</span>
+								</button>
+													</td>
+					
+					<td class="cell-readers" id="blog_user_count_5906">518</td>
+					<td class="cell-rating align-center ">2307.81</td>
+				</tr>
+							
+				<tr>
+					<td class="cell-info">
+						<a href="#" onclick="return ls.infobox.showInfoBlog(this,1777);" class="blog-list-info"></a>
+					</td>
+					<td class="cell-name">
+						<p>
+							<a href="http://tabun.everypony.ru/blog/Ponyhawks/" class="blog-name">Полуночники</a>
+							
+															<i title="Закрытый блог" class="icon-synio-topic-private"></i>
+													</p>
+						
+						<span class="user-avatar">
+							<a href="http://tabun.everypony.ru/profile/Santiaga/"><img src="http://tabun.everypony.ru/uploads/images/00/42/60/2013/04/01/avatar_24x24.jpg?180155" alt="avatar" /></a>
+							<a href="http://tabun.everypony.ru/profile/Santiaga/">Santiaga</a>
+						</span>
+					</td>
+
+											<td class="cell-join">
+															&mdash;
+													</td>
+					
+					<td class="cell-readers" id="blog_user_count_1777">350</td>
+					<td class="cell-rating align-center ">2296.28</td>
+				</tr>
+							
+				<tr>
+					<td class="cell-info">
+						<a href="#" onclick="return ls.infobox.showInfoBlog(this,2384);" class="blog-list-info"></a>
+					</td>
+					<td class="cell-name">
+						<p>
+							<a href="http://tabun.everypony.ru/blog/irl-connection/" class="blog-name">IRL Connection</a>
+							
+													</p>
+						
+						<span class="user-avatar">
+							<a href="http://tabun.everypony.ru/profile/Todash/"><img src="http://tabun.everypony.ru/uploads/images/00/03/60/2013/10/31/avatar_24x24.jpg?215626" alt="avatar" /></a>
+							<a href="http://tabun.everypony.ru/profile/Todash/">Todash</a>
+						</span>
+					</td>
+
+											<td class="cell-join">
+															<button type="submit"  onclick="ls.blog.toggleJoin(this, 2384); return false;" class="button button-action button-action-join ">
+									<i class="icon-synio-join"></i>
+									<span>Подписаться на блог</span>
+								</button>
+													</td>
+					
+					<td class="cell-readers" id="blog_user_count_2384">938</td>
+					<td class="cell-rating align-center ">2275.66</td>
+				</tr>
+							
+				<tr>
+					<td class="cell-info">
+						<a href="#" onclick="return ls.infobox.showInfoBlog(this,4);" class="blog-list-info"></a>
+					</td>
+					<td class="cell-name">
+						<p>
+							<a href="http://tabun.everypony.ru/blog/news/" class="blog-name">Срочно в номер</a>
+							
+													</p>
+						
+						<span class="user-avatar">
+							<a href="http://tabun.everypony.ru/profile/Random/"><img src="http://tabun.everypony.ru/templates/skin/synio/images/avatar_male_24x24.png" alt="avatar" /></a>
+							<a href="http://tabun.everypony.ru/profile/Random/">Random</a>
+						</span>
+					</td>
+
+											<td class="cell-join">
+															<button type="submit"  onclick="ls.blog.toggleJoin(this, 4); return false;" class="button button-action button-action-join ">
+									<i class="icon-synio-join"></i>
+									<span>Подписаться на блог</span>
+								</button>
+													</td>
+					
+					<td class="cell-readers" id="blog_user_count_4">1066</td>
+					<td class="cell-rating align-center ">2259.66</td>
+				</tr>
+							
+				<tr>
+					<td class="cell-info">
+						<a href="#" onclick="return ls.infobox.showInfoBlog(this,5830);" class="blog-list-info"></a>
+					</td>
+					<td class="cell-name">
+						<p>
+							<a href="http://tabun.everypony.ru/blog/congratulations/" class="blog-name">Блог поздравляшек</a>
+							
+													</p>
+						
+						<span class="user-avatar">
+							<a href="http://tabun.everypony.ru/profile/Dashie116/"><img src="http://tabun.everypony.ru/uploads/images/00/22/94/2014/03/08/avatar_24x24.jpg?221443" alt="avatar" /></a>
+							<a href="http://tabun.everypony.ru/profile/Dashie116/">Dashie116</a>
+						</span>
+					</td>
+
+											<td class="cell-join">
+															<button type="submit"  onclick="ls.blog.toggleJoin(this, 5830); return false;" class="button button-action button-action-join ">
+									<i class="icon-synio-join"></i>
+									<span>Подписаться на блог</span>
+								</button>
+													</td>
+					
+					<td class="cell-readers" id="blog_user_count_5830">737</td>
+					<td class="cell-rating align-center ">2229.78</td>
+				</tr>
+							
+				<tr>
+					<td class="cell-info">
+						<a href="#" onclick="return ls.infobox.showInfoBlog(this,8037);" class="blog-list-info"></a>
+					</td>
+					<td class="cell-name">
+						<p>
+							<a href="http://tabun.everypony.ru/blog/borderline/" class="blog-name">На грани</a>
+							
+															<i title="Закрытый блог" class="icon-synio-topic-private"></i>
+													</p>
+						
+						<span class="user-avatar">
+							<a href="http://tabun.everypony.ru/profile/GaPAoT/"><img src="http://tabun.everypony.ru/uploads/images/00/00/06/2012/11/06/avatar_24x24.png?212125" alt="avatar" /></a>
+							<a href="http://tabun.everypony.ru/profile/GaPAoT/">GaPAoT</a>
+						</span>
+					</td>
+
+											<td class="cell-join">
+															&mdash;
+													</td>
+					
+					<td class="cell-readers" id="blog_user_count_8037">1552</td>
+					<td class="cell-rating align-center ">2179.91</td>
+				</tr>
+							
+				<tr>
+					<td class="cell-info">
+						<a href="#" onclick="return ls.infobox.showInfoBlog(this,2249);" class="blog-list-info"></a>
+					</td>
+					<td class="cell-name">
+						<p>
+							<a href="http://tabun.everypony.ru/blog/molestia/" class="blog-name">Орден Молестии</a>
+							
+															<i title="Закрытый блог" class="icon-synio-topic-private"></i>
+													</p>
+						
+						<span class="user-avatar">
+							<a href="http://tabun.everypony.ru/profile/Skatsanni/"><img src="http://tabun.everypony.ru/uploads/images/00/09/84/2012/11/06/avatar_24x24.png?150835" alt="avatar" /></a>
+							<a href="http://tabun.everypony.ru/profile/Skatsanni/">Skatsanni</a>
+						</span>
+					</td>
+
+											<td class="cell-join">
+															&mdash;
+													</td>
+					
+					<td class="cell-readers" id="blog_user_count_2249">516</td>
+					<td class="cell-rating align-center ">2097.73</td>
+				</tr>
+						</tbody>
+</table>
+	 
+	<div class="pagination">
+		<ul>
+							<li class="prev"><span>&larr; предыдущая</span></li>
+						
+			
+							<li class="next"><a href="http://tabun.everypony.ru/blogs/page2/?order=blog_rating&order_way=desc" class="js-paging-next-page" title="следующая">следующая &rarr;</a></li>
+					</ul>
+		<ul>
+						
+						
+			<li class="active"><span>1</span></li>
+			
+							<li><a href="http://tabun.everypony.ru/blogs/page2/?order=blog_rating&order_way=desc">2</a></li>
+							<li><a href="http://tabun.everypony.ru/blogs/page3/?order=blog_rating&order_way=desc">3</a></li>
+							<li><a href="http://tabun.everypony.ru/blogs/page4/?order=blog_rating&order_way=desc">4</a></li>
+							<li><a href="http://tabun.everypony.ru/blogs/page5/?order=blog_rating&order_way=desc">5</a></li>
+						
+			
+			<li><a href="http://tabun.everypony.ru/blogs/page21/?order=blog_rating&order_way=desc" title="последняя">последняя</a></li>					
+		</ul>
+	</div>
+
+</div>
+
+				
+			</div> <!-- /content -->
+		</div> <!-- /content-wrapper -->
+	</div> <!-- /wrapper -->
+
+
+	
+	<footer id="footer">
+		<p class="nya-text">Все права принадлежат пони. Весь мир принадлежит пони.</p>
+		<img class="nya-foot" src="http://tabun.everypony.ru/templates/skin/synio/images/shy.png" alt="Няша"/>
+		
+	</footer>
+</div> <!-- /container -->
+
+<aside class="toolbar" id="toolbar">
+	
+
+								
+										
+			
+</aside>
+
+
+
+
+</body>
+</html>

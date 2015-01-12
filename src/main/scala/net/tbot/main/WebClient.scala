@@ -10,6 +10,8 @@ import scala.concurrent.duration._
 import net.tbot.utils.CommentStreamLoad
 import spray.httpx.unmarshalling._
 import scala.util.Success
+import scala.collection.immutable.HashMap
+import net.tbot.utils.CommentStreamLoad
 
 /**
  *  Актор-вебклиент
@@ -53,8 +55,65 @@ class WebClient extends Actor with ActorLogging {
 	 * @return Receive для состояния в логине
 	 */
 	
-	context.system.scheduler.schedule(10.seconds, 10.seconds){
-		import net.tbot.utils.CommentStreamJsonProtocol._
+	def loggedIn(subscribes: HashMap[Stream, CancelAndSubscribers]): Receive = {
+		case GetPage(url) => sender ! Page(webClient.get(url)); log.debug("taking page")
+		case Subscribe(ref, typ) => subscribe(subscribes,ref,typ)
+		case Unsubscribe(ref, typ) => unsubscribe(subscribes,ref,typ)
+	}
+	
+	type Cancel = Either[ActorRef,Cancellable]
+	type CancelAndSubscribers = (Cancel,List[ActorRef])
+	
+	// type CancelAndSubscribes это tuple (Either[ActorRef,Cancellable],List[ActorRef])
+//	var subscribes:HashMap[Stream, CancelAndSubscribers] = HashMap()
+	
+	def doSubscribe(stream:Stream):Cancel = {
+		stream match {
+			case CommentStream => Right(scheduleCommentStream)
+		}
+	}
+	
+	def subscribe(subscribes:HashMap[Stream, CancelAndSubscribers], ref:ActorRef,typ:Stream) = {
+			log.debug("Subscribing actor with ref " + ref + " to " + typ)
+		  	val newCAS:CancelAndSubscribers = 
+		  		if(!subscribes.contains(typ)){
+		  			val canc = doSubscribe(typ)
+		  			(canc ,List(ref))
+		  		} else {
+		  			val prev = subscribes.apply(typ)
+		  			(prev._1, prev._2  ++ List(ref))
+		  		}
+			context.system.eventStream.subscribe(ref, typ.getClassOfFuture)
+//			subscribes = subscribes ++ HashMap(typ -> newCAS)
+			context.become(loggedIn(subscribes ++ HashMap(typ -> newCAS)))
+	}
+	
+	def unsubscribe(subscribes:HashMap[Stream, CancelAndSubscribers], ref:ActorRef, typ:Stream) = {
+		log.debug("Unsubscribing actor with ref " + ref + " from " + typ)
+		if(subscribes.contains(typ)){
+			val cas = subscribes.apply(typ)
+			val nl = cas._2.filterNot(x => x == ref)
+			if (!nl.isEmpty) {
+				val newCAS = (cas._1, nl)
+//				subscribes = subscribes ++ HashMap(typ -> newCAS)
+				context.system.eventStream.unsubscribe(ref, typ.getClassOfFuture)
+				log.debug("Unsubscribed ref: " + ref + " from stream: " + typ)
+				context.become(loggedIn(subscribes ++ HashMap(typ -> newCAS)))
+			} else {
+				cas._1.fold(x => x ! Kill, x => x.cancel)
+//				subscribes = subscribes.-(typ)
+				context.system.eventStream.unsubscribe(ref, typ.getClassOfFuture)
+				context.become(loggedIn(subscribes.-(typ)))
+				log.debug("Unsubscribed ref: " + ref + " from stream: " + typ + " and killed stream")
+			}
+		} else {
+			log.warning("Unsubscribing ref: " + ref + " from stream: " + typ + " that doesn't exists")
+		}
+			
+	}
+	
+	def scheduleCommentStream = context.system.scheduler.schedule(10.seconds, 10.seconds){
+		import net.tbot.utils.JsonProtocols._
 		import spray.httpx.SprayJsonSupport._
 		log.debug("requested at scheduler")
 		webClient.postWithKey("/ajax/stream/comment/") match {
@@ -62,20 +121,15 @@ class WebClient extends Actor with ActorLogging {
 				context.system.eventStream.publish(event = CommentStreamFuture(res.map(_.entity.as[CommentStreamLoad])))
 				log.debug("published at scheduler")
 			}
-			case Failure(e) => {log.debug("failure at scheduler")}
+			case Failure(e) => {log.debug("failure at creating request for CommentStream scheduler")}
 		}
 		
 	}
 	
-	def loggedIn: Receive = {
-		case GetPage(url) => sender ! Page(webClient.get(url)); log.debug("taking page")
-		case Subscribe(ref, typ) => {
-			log.debug("Subscribing at webclient")
-			typ match {
-				case CommentStream => log.debug("subscribing to commentstream") ; context.system.eventStream.subscribe(ref, classOf[CommentStreamFuture])
-			}
-		}
-	}
+	
+	
+	
+	
 
 	/**
 	 * TODO ужас
@@ -101,7 +155,7 @@ class WebClient extends Actor with ActorLogging {
 													webClient.setCookie(Seq(key))
 													log.debug("Key " + key.value + " set after login")
 													sender ! LoggedIn
-													context.become(loggedIn)
+													context.become(loggedIn(HashMap()))
 												}
 												case None => {
 													log.warning("Didn't got key cookie after login: " + res2);

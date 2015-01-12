@@ -10,6 +10,8 @@ object CommentStreamReader{
 	def name = "CommentStreamReader"
 }
 
+case class AssignInt(int:Int)
+
 class CommentStreamReader extends Actor with ActorLogging{
 	
 	val system = context.system
@@ -21,13 +23,13 @@ class CommentStreamReader extends Actor with ActorLogging{
 	override def preStart = {
 		log.debug("At pre start")
 		log.debug(parent.path.toString())
-		sc = Option.apply(context.system.scheduler.scheduleOnce(delay = 5.seconds, receiver = parent, message = Subscribe(context.self, CommentStream)))
-		log.debug(sc.get.isCancelled.toString)
 	}
 	
 	def receive:Receive = {
+		case AssignInt(int:Int) => context.system.scheduler.scheduleOnce(delay = int.seconds, receiver = parent, message = Unsubscribe(context.self, CommentStream));
+				sc = Option.apply(context.system.scheduler.scheduleOnce(delay = 3.seconds, receiver = parent, message = Subscribe(context.self, CommentStream)))
 		case CommentStreamFuture(f) => f.onComplete{
-				case Success(res) => val res2 = res.right.get ;log.info(res.toString())
+				case Success(res) => val res2 = res.right.get ; log.info(/*CommentStreamParser.fromTextString(res.right.get.sText).map(x => x.author).toString*/"Not invented here")
 				case Failure(f) => log.warning(f.toString)
 		}
 		case any => log.info("unknown message: " + any)

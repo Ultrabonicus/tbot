@@ -1,0 +1,2583 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	
+	
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>Полночь После Маяка / Табун - место, где пасутся брони</title>
+	
+	<meta name="description" content="Полночь После Маяка:  Уютные посиделки у подножия полуночного маяка! Интересные разговоры, бессмысленные споры, душевная атмосфера анархии, а так же ненависть, клопота, взаимоунижение и прочие радости сайта про пони. Вход свободный. Для принятия  баптизма   ислама  инвайта пишите всем админам и модераторам сразу.  
+ 
+    
+    
+ 
+  Вступая в блог, вы автоматически снимаете ответственность с администрации и других пользователей за возгорание вашей задницы из-за содержимого любого поста или комментария. Помните, что это интернет, тут могут и в пинус послать. 
+ Хочешь годный контент в блоге — производи его сам! Иначе не жалуйся.   шаблон и общие рекомендации    
+Теги: Говнокод. Кровожадные хохлы. Срач. Целевая Аудитория. Дарк Солс. #табунтвиттер. Мадока. Где антрота? Револьвер Кармина. АШТРИСЕТ. Файрфокс — говно. Цивилизация. Опера — говно. Грузи на имгур. Виндаговно. Милота. Путин. Андроид. Пилите новый чат. tabun.andreymal.org. Ватный атлантис. Стабильность. Евроинтегрированный. Я — совершенная кошка. Тупой либераст. Лучшая пони. Такбир! Маяк маячит. Кармаклоппер. 2000 комментариев. Роскомнадзор. Майк разливает жир. Скакать. Забаненный Димон. Предки-дворяне. Мне отец рассказывал. Троллинг. Фурфаг. Ленин упал. У JBonda прогресс. Я здал ЕГЭ, а они нет. Бездуховность. Самолеты. Элитный ВУЗ. Фошист. Игнор не работает. Смайлодрочер. Бандера. Укроармия. Накати. Форкать Дебиан. Гуманитарий. Годнота. Диагноз: еблан. Цветные кони. Как-то скучновато. Держи огнетушитель. Мамку твою сухонам драл.   
+  
+Чат-пост #165 им. Великой Объединительницы.Чат #164 имени лютой дрочки на Мику Хатцуне.Чат-пост #163 им. ежа за трапезой.Чат-пост #162 им. BadDay.#161 долгожданный Щат-пост имени независимых дев с членами.За кого мне выйти?.Чат-пост #160 Новогодний!.В поход. С кем ты будешь ночевать в одной палатке?.Какой мой опрос в МПП был самым тупым?.Чат-пост #159 им. Орфографии.">
+	<meta name="keywords" content="маяк-хуяк,Хацуне Мику,МПП,маяк-хуяк,политота,распегасило,чат-пост,маяк-хуяк,МПП,бездуховность,МПП,чат-пост,123,СВАДЬБА В МПП!!!,МПП,Чат-пост,Маяк-хуяк,happy new year!,МПП,На природе,Ночью так холодно,Такие дела,МПП,а свадьба всё равно скоро,МПП,скоро,СВАДЬБА В МПП!!!,Лаки и Мелкор,а также,Лаки и Хиб,чат-пост,учитесь,студенты :3,за кого бы ещё отдать Лаки?,">
+
+	<link rel='stylesheet' type='text/css' href='http://tabun.everypony.ru/templates/cache/synio/6ec25fb1dace5eff1c443b0156671a16.css' />
+
+
+	<link href="http://tabun.everypony.ru/templates/skin/synio/images/favicon.ico?v1" rel="shortcut icon" />
+	<link rel="search" type="application/opensearchdescription+xml" href="http://tabun.everypony.ru/search/opensearch/" title="Табун - место, где пасутся брони" />
+
+			<link rel="alternate" type="application/rss+xml" href="http://tabun.everypony.ru/rss/blog/lighthouse/" title="Полночь После Маяка">
+	
+			<link rel="canonical" href="http://tabun.everypony.ru/blog/lighthouse/" />
+	
+		<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-22560999-4']);
+		_gaq.push(['_trackPageview']);
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+	<script type="text/javascript">
+		function __42__getCookies() {
+			
+			if (typeof String.prototype.trimLeft !== "function") {
+    				String.prototype.trimLeft = function() {
+        				return this.replace(/^\s+/, "");
+    				};
+			}
+			if (typeof String.prototype.trimRight !== "function") {
+				String.prototype.trimRight = function() {
+					return this.replace(/\s+$/, "");
+    				};
+			}
+	
+        		var c = document.cookie, v = 0, cookies = {};
+		        if (document.cookie.match(/^\s*\$Version=(?:"1"|1);\s*(.*)/)) {
+            			c = RegExp.$1;
+            			v = 1;
+		        }
+        		if (v === 0) {
+            			c.split(/[,;]/).map(function(cookie) {
+                			var parts = cookie.split(/=/, 2),
+                    			name = decodeURIComponent(parts[0].trimLeft()),
+                    			value = parts.length > 1 ? decodeURIComponent(parts[1].trimRight()) : null;
+                			cookies[name] = value;
+            			});
+        		} else {
+            			c.match(/(?:^|\s+)([!#$%&'*+\-.0-9A-Z^`a-z|~]+)=([!#$%&'*+\-.0-9A-Z^`a-z|~]*|"(?:[\x20-\x7E\x80\xFF]|\\[\x00-\x7F])*")(?=\s*[,;]|$)/g).map(function($0, $1) {
+                			var name = $0,
+                    			value = $1.charAt(0) === '"'
+                              		? $1.substr(1, -1).replace(/\\(.)/g, "$1")
+                              		: $1;
+                			cookies[name] = value;
+            			});
+        		}
+        		return cookies;
+    		}
+		var DIR_WEB_ROOT 			= 'http://tabun.everypony.ru';
+		var DIR_STATIC_SKIN 		= 'http://tabun.everypony.ru/templates/skin/synio';
+		var DIR_ROOT_ENGINE_LIB 	= 'http://tabun.everypony.ru/engine/lib';
+		var LIVESTREET_SECURITY_KEY = 'fdb7417827c5fd27617988c90328c4df';
+		var SESSION_ID = __42__getCookies()['PHPSESSID'];
+		console.log(SESSION_ID);
+		var BLOG_USE_TINYMCE		= '';
+		
+		var TINYMCE_LANG = 'en';
+					TINYMCE_LANG = 'ru';
+		
+		var aRouter = new Array();
+					aRouter['error'] = 'http://tabun.everypony.ru/error/';
+					aRouter['registration'] = 'http://tabun.everypony.ru/registration/';
+					aRouter['profile'] = 'http://tabun.everypony.ru/profile/';
+					aRouter['my'] = 'http://tabun.everypony.ru/my/';
+					aRouter['blog'] = 'http://tabun.everypony.ru/blog/';
+					aRouter['personal_blog'] = 'http://tabun.everypony.ru/personal_blog/';
+					aRouter['index'] = 'http://tabun.everypony.ru/index/';
+					aRouter['topic'] = 'http://tabun.everypony.ru/topic/';
+					aRouter['login'] = 'http://tabun.everypony.ru/login/';
+					aRouter['people'] = 'http://tabun.everypony.ru/people/';
+					aRouter['settings'] = 'http://tabun.everypony.ru/settings/';
+					aRouter['tag'] = 'http://tabun.everypony.ru/tag/';
+					aRouter['talk'] = 'http://tabun.everypony.ru/talk/';
+					aRouter['comments'] = 'http://tabun.everypony.ru/comments/';
+					aRouter['rss'] = 'http://tabun.everypony.ru/rss/';
+					aRouter['question'] = 'http://tabun.everypony.ru/question/';
+					aRouter['blogs'] = 'http://tabun.everypony.ru/blogs/';
+					aRouter['search'] = 'http://tabun.everypony.ru/search/';
+					aRouter['admin'] = 'http://tabun.everypony.ru/admin/';
+					aRouter['ajax'] = 'http://tabun.everypony.ru/ajax/';
+					aRouter['feed'] = 'http://tabun.everypony.ru/feed/';
+					aRouter['stream'] = 'http://tabun.everypony.ru/stream/';
+					aRouter['subscribe'] = 'http://tabun.everypony.ru/subscribe/';
+					aRouter['language'] = 'http://tabun.everypony.ru/language/';
+					aRouter['file'] = 'http://tabun.everypony.ru/file/';
+					aRouter['page'] = 'http://tabun.everypony.ru/page/';
+					aRouter['role'] = 'http://tabun.everypony.ru/role/';
+					aRouter['role_ajax'] = 'http://tabun.everypony.ru/role_ajax/';
+					aRouter['role_people'] = 'http://tabun.everypony.ru/role_people/';
+					aRouter['sitemap'] = 'http://tabun.everypony.ru/sitemap/';
+					aRouter['tags'] = 'http://tabun.everypony.ru/tags/';
+					aRouter['talkbell'] = 'http://tabun.everypony.ru/talkbell/';
+			</script>
+	
+	
+	<script type='text/javascript' src='http://tabun.everypony.ru/templates/cache/synio/c3d208d693cac8c6b0e155dca89ed82b.js'></script>
+<!--[if lt IE 9]><script type='text/javascript' src='http://tabun.everypony.ru/engine/lib/external/html5shiv.js'></script><![endif]-->
+<script type='text/javascript' src='http://yandex.st/share/share.js'></script>
+
+
+	
+	<script type="text/javascript">
+		var tinyMCE = false;
+		ls.lang.load({"blog_join":"\u041f\u043e\u0434\u043f\u0438\u0441\u0430\u0442\u044c\u0441\u044f \u043d\u0430 \u0431\u043b\u043e\u0433","blog_leave":"\u041e\u0442\u043f\u0438\u0441\u0430\u0442\u044c\u0441\u044f \u043e\u0442 \u0431\u043b\u043e\u0433\u0430"});
+		ls.registry.set('comment_max_tree',60);
+		ls.registry.set('block_stream_show_tip',false);
+	</script>
+	
+	<script type="text/javascript">
+	var LS_ROUTER_ACTION = 'blog';
+	var LS_ROUTER_EVENT = 'lighthouse';
+</script>
+
+</head>
+
+
+
+		
+	
+	
+
+
+
+
+
+
+<body class=" ls-user-role-user ls-user-role-not-admin ls-template-synio width-fixed">
+	
+	
+	
+			<div class="modal modal-write" id="modal_write">
+	<header class="modal-header">
+		<a href="#" class="close jqmClose"></a>
+	</header>
+	
+	<div class="modal-content"><ul class="write-list"><li class="write-item-type-topic"><a href="http://tabun.everypony.ru/topic/add" class="write-item-image"></a><a href="http://tabun.everypony.ru/topic/add" class="write-item-link">Пост</a></li><li class="write-item-type-blog"><a href="http://tabun.everypony.ru/blog/add" class="write-item-image"></a><a href="http://tabun.everypony.ru/blog/add" class="write-item-link">Блог</a></li><li class="write-item-type-message"><a href="http://tabun.everypony.ru/talk/add" class="write-item-image"></a><a href="http://tabun.everypony.ru/talk/add" class="write-item-link">Сообщение</a></li><li class="write-item-type-file">
+  <a class="write-item-image" href="http://tabun.everypony.ru/file/add/"></a>
+  <a class="write-item-link" href="http://tabun.everypony.ru/file/add/">Файл</a>
+</li></ul></div>
+</div>
+	
+			<div id="favourite-form-tags" class="modal">
+		<header class="modal-header">
+			<h3>Добавить свои теги</h3>
+			<a href="#" class="close jqmClose"></a>
+		</header>
+		
+		
+		<form onsubmit="return ls.favourite.saveTags(this);" class="modal-content">
+			<input type="hidden" name="target_type" id="favourite-form-tags-target-type">
+			<input type="hidden" name="target_id" id="favourite-form-tags-target-id">
+
+			<p><input type="text" name="tags" value="" id="favourite-form-tags-tags" class="autocomplete-tags-sep input-text input-width-full"></p>
+			<button type="submit" class="button button-primary">Сохранить</button>
+			<button type="submit" class="button jqmClose">Отмена</button>
+		</form>
+	</div>
+
+		
+	<div id="widemode">
+<!--		<span id="tabun-fixes-chronology">
+			<a href="javascript:void(0)" id="tabun-fixes-chronology-plus">-1</a>
+			<div id="tabun-fixes-chronology-timeline"><div id="tabun-fixes-chronology-slider"></div></div>
+			<a href="javascript:void(0)" id="tabun-fixes-chronology-minus">+1</a>
+		</span>
+-->
+		<a id="despoil">Despoil</a>
+		<a id="widemode-switch">Wide mode &harr;</a>
+		<a id="up-switch"></a>
+		<a id="down-switch"></a>
+	</div>
+	
+	<div id="container" class="">
+		<div id="c-header">
+	
+	<ul class="main-menu">
+		<li id="logolink"><a href="http://tabun.everypony.ru">Да, это — Табун!</a></li>
+		
+		<li><a href="http://everypony.ru">Блог</a></li>
+		<li><a href="http://forum.everypony.ru">Форум</a></li>
+		<li><a href="http://stories.everypony.ru">Рассказы</a></li>
+		<li><a href="http://wiki.everypony.ru">Вики</a></li>
+		<li><a href="http://minecraft.everypony.ru">Майнкрафт</a></li>
+	</ul>	
+	
+	<a class="rss" href="http://tabun.everypony.ru/rss/" title="RSS поток Табуна"></a>
+	<a class="twitter" href="https://twitter.com/#!/everypony_ru" title="Твиттер Everypony.ru"></a>
+</div>
+<header id="header" role="banner">
+		
+	
+	<ul class="nav nav-main" id="nav-main">
+			<li><a href="http://tabun.everypony.ru/topic/add/" class="button-write js-write-window-show" id="modal_write_show">Создать</a></li>
+			<li class="active"><a href="http://tabun.everypony.ru">Посты</a></li>
+		<li ><a href="http://tabun.everypony.ru/blogs/">Блоги</a></li>
+		<li ><a href="http://tabun.everypony.ru/people/">Брони</a></li>
+		<li ><a href="http://tabun.everypony.ru/stream/">Активность</a></li>
+
+			<li ><a href="http://tabun.everypony.ru/page/faq/" >FAQ (новичкам)</a><i></i></li>
+	
+	</ul>
+
+				
+		
+		
+
+
+	
+	
+	
+			<div class="dropdown-user" id="dropdown-user">
+			<a href="http://tabun.everypony.ru/profile/Hibonicus/"><img src="http://tabun.everypony.ru/uploads/images/00/13/56/2014/12/30/avatar_100x100.png?151911" alt="avatar" class="avatar" /></a>
+			<a href="http://tabun.everypony.ru/profile/Hibonicus/" class="username">Hibonicus</a>
+			
+			<ul class="dropdown-user-menu" id="dropdown-user-menu">
+				
+				<li class="item-messages">
+					<a href="http://tabun.everypony.ru/talk/" id="new_messages">
+						Сообщения
+					</a>
+								</li>
+				<li class="item-favourite"><a href="http://tabun.everypony.ru/profile/Hibonicus/favourites/topics/">Избранное</a></li> 
+				<li class="item-settings"><a href="http://tabun.everypony.ru/settings/profile/">Настройки</a></li>
+				
+				<li class="item-signout"><a href="http://tabun.everypony.ru/login/exit/?security_ls_key=fdb7417827c5fd27617988c90328c4df">Выход</a></li>
+			</ul>
+			<ul class="dropdown-user-menu">
+				<li class="item-stat">
+					<span class="strength" title="Силушка"><i class="icon-synio-star-green"></i> 12048.32</span>
+				</li>
+				<li>
+				<span class="rating " title="Кармочка"><i class="icon-synio-rating"></i> 1428.81</span>
+					
+				</li>
+			</ul>
+		</div>
+		
+	
+	
+	<nav id="nav">	
+	</nav>
+</header>
+
+		
+
+		<div id="wrapper" class="">
+							<aside id="sidebar" >
+<section class="running-ponies">
+	<div class="block-content" id="running_ponies">
+        	<img src="http://files.everypony.ru/tabun/ponies/?1"/>
+        	<img src="http://files.everypony.ru/tabun/ponies/?2"/>
+        	<img src="http://files.everypony.ru/tabun/ponies/?3"/>
+        	<img src="http://files.everypony.ru/tabun/ponies/?4"/>
+        	<img src="http://files.everypony.ru/tabun/ponies/?5"/>
+	</div>
+</section>
+	
+
+						<section class="block block-type-pseudomenu">
+	<ul>
+		<li><a href="http://smile-o-pack.net/">Смайлопак</a></li>
+		<li><a href="http://tabun.everypony.ru/page/draw/">Рисование</a></li>
+		<li><a href="http://tabun.everypony.ru/tags/">Теги</a></li>
+	</ul>
+</section>
+
+<section class="block block-type-search">
+	<div class="search-header">		
+		<form class="search-header-form" id="search-header-form" action="http://tabun.everypony.ru/search/topics/">
+			<input type="text" placeholder="Поиск" maxlength="255" name="q" class="input-text">
+			<input type="submit" value="" title="Найти" class="input-submit">
+		</form>
+	</div>
+</section>
+
+<section class="block block-type-stream">
+	
+
+	<header class="block-header sep">
+		<h3><a href="http://tabun.everypony.ru/comments/" title="Весь эфир">Прямой эфир</a></h3>
+		
+		<ul class="nav nav-pills js-block-stream-nav" >
+			<li class="active js-block-stream-item" data-type="comment"><a href="#">Комментарии</a></li>
+			<li class="js-block-stream-item" data-type="topic"><a href="#">Публикации</a></li>
+			<div class="block-update js-block-stream-update"></div>
+			
+		</ul>
+		
+		<ul class="nav nav-pills js-block-stream-dropdown" style="display: none;">
+			<li class="dropdown active js-block-stream-dropdown-trigger"><a href="#">Комментарии</a> <i class="icon-synio-arrows"></i>
+				<ul class="dropdown-menu js-block-stream-dropdown-items">
+					<li class="active js-block-stream-item" data-type="comment"><a href="#">Комментарии</a></li>
+					<li class="js-block-stream-item" data-type="topic"><a href="#">Публикации</a></li>
+					
+				</ul>
+			</li>
+		</ul>
+	</header>
+	
+	<div class="block-content">
+		<div class="js-block-stream-content">
+			<ul class="latest-list">
+									
+		<li class="js-title-comment">
+			<p>
+				<a href="http://tabun.everypony.ru/profile/Gredon/" class="author">Gredon</a> в <a href="http://tabun.everypony.ru/blog/herp_derp/" class="stream-blog">HERP DERP</a>  
+			</p>
+			<a href="http://tabun.everypony.ru/comments/8421055" class="stream-topic">Первый полет Рейнбоу Дэш</a>
+			<span class="block-item-comments"><i class="icon-synio-comments-small"></i>20</span>
+		</li>
+									
+		<li class="js-title-comment">
+			<p>
+				<a href="http://tabun.everypony.ru/profile/GL_DOS/" class="author">GL_DOS</a> в <a href="http://tabun.everypony.ru/blog/SoH/" class="stream-blog">На задворках Сториса</a>  
+			</p>
+			<a href="http://tabun.everypony.ru/comments/8421051" class="stream-topic">Рог изобилия [4]. Спасибо Сторису.</a>
+			<span class="block-item-comments"><i class="icon-synio-comments-small"></i>145</span>
+		</li>
+									
+		<li class="js-title-comment">
+			<p>
+				<a href="http://tabun.everypony.ru/profile/Kuvokig/" class="author">Kuvokig</a> в <a href="http://tabun.everypony.ru/blog/comicsworkshop/" class="stream-blog">Цех комиксов</a>  
+			</p>
+			<a href="http://tabun.everypony.ru/comments/8421050" class="stream-topic">АльтерБРЕДации №535: Скупые строки</a>
+			<span class="block-item-comments"><i class="icon-synio-comments-small"></i>239</span>
+		</li>
+									
+		<li class="js-title-comment">
+			<p>
+				<a href="http://tabun.everypony.ru/profile/SMT5015/" class="author">SMT5015</a> в <a href="http://tabun.everypony.ru/blog/science/" class="stream-blog">Эквестрийский аналитический отдел</a>  
+			</p>
+			<a href="http://tabun.everypony.ru/comments/8421048" class="stream-topic">Чейнджлинги должны были вымереть</a>
+			<span class="block-item-comments"><i class="icon-synio-comments-small"></i>282</span>
+		</li>
+									
+		<li class="js-title-comment">
+			<p>
+				<a href="http://tabun.everypony.ru/profile/VIM/" class="author">VIM</a> в <a href="http://tabun.everypony.ru/blog/science/" class="stream-blog">Эквестрийский аналитический отдел</a>  
+			</p>
+			<a href="http://tabun.everypony.ru/comments/8421042" class="stream-topic">...лупу съест</a>
+			<span class="block-item-comments"><i class="icon-synio-comments-small"></i>4</span>
+		</li>
+									
+		<li class="js-title-comment">
+			<p>
+				<a href="http://tabun.everypony.ru/profile/Hibonicus/" class="author">Hibonicus</a> в <a href="http://tabun.everypony.ru/blog/lighthouse/" class="stream-blog">Полночь После Маяка</a>  
+			</p>
+			<a href="http://tabun.everypony.ru/comments/8421036" class="stream-topic">Чат-пост #165 им. Великой Объединительницы</a>
+			<span class="block-item-comments"><i class="icon-synio-comments-small"></i>249</span>
+		</li>
+									
+		<li class="js-title-comment">
+			<p>
+				<a href="http://tabun.everypony.ru/profile/Krueger/" class="author">Krueger</a> в <a href="http://tabun.everypony.ru/blog/ask_blogs/" class="stream-blog">Аск-блоги ОСов</a>  
+			</p>
+			<a href="http://tabun.everypony.ru/comments/8421035" class="stream-topic">Ask Karma and Touch #4</a>
+			<span class="block-item-comments"><i class="icon-synio-comments-small"></i>9</span>
+		</li>
+									
+		<li class="js-title-comment">
+			<p>
+				<a href="http://tabun.everypony.ru/profile/Holdys/" class="author">Holdys</a> в <a href="http://tabun.everypony.ru/blog/nonpony/" class="stream-blog">Не пони</a>  
+			</p>
+			<a href="http://tabun.everypony.ru/comments/8421028" class="stream-topic">If the Emperor had a Text-to-Speech Device</a>
+			<span class="block-item-comments"><i class="icon-synio-comments-small"></i>3</span>
+		</li>
+									
+		<li class="js-title-comment">
+			<p>
+				<a href="http://tabun.everypony.ru/profile/andreymal/" class="author">andreymal</a> в <a href="http://tabun.everypony.ru/profile/Rainbow_Spike/created/topics/" class="stream-blog">Блог им. Rainbow_Spike</a>  
+			</p>
+			<a href="http://tabun.everypony.ru/comments/8421025" class="stream-topic">ВИКИ ОБНОВЛЕНА</a>
+			<span class="block-item-comments"><i class="icon-synio-comments-small"></i>39</span>
+		</li>
+									
+		<li class="js-title-comment">
+			<p>
+				<a href="http://tabun.everypony.ru/profile/Hibonicus/" class="author">Hibonicus</a> в <a href="http://tabun.everypony.ru/blog/news/" class="stream-blog">Срочно в номер</a>  
+			</p>
+			<a href="http://tabun.everypony.ru/comments/8421002" class="stream-topic">ОС от Лорен Фауст ушёл за $3500</a>
+			<span class="block-item-comments"><i class="icon-synio-comments-small"></i>4</span>
+		</li>
+									
+		<li class="js-title-comment">
+			<p>
+				<a href="http://tabun.everypony.ru/profile/Krueger/" class="author">Krueger</a> в <a href="http://tabun.everypony.ru/blog/translate-comics/" class="stream-blog">Гильдия переводчиков - Переводы комиксов</a>  
+			</p>
+			<a href="http://tabun.everypony.ru/comments/8420993" class="stream-topic">Бредовое будущее #52-53(56)</a>
+			<span class="block-item-comments"><i class="icon-synio-comments-small"></i>11</span>
+		</li>
+									
+		<li class="js-title-comment">
+			<p>
+				<a href="http://tabun.everypony.ru/profile/SMT5015/" class="author">SMT5015</a> в <a href="http://tabun.everypony.ru/blog/science/" class="stream-blog">Эквестрийский аналитический отдел</a>  
+			</p>
+			<a href="http://tabun.everypony.ru/comments/8420989" class="stream-topic">Формы и проявления магической энергии. Магия как движущая сила эволюции мира.</a>
+			<span class="block-item-comments"><i class="icon-synio-comments-small"></i>120</span>
+		</li>
+									
+		<li class="js-title-comment">
+			<p>
+				<a href="http://tabun.everypony.ru/profile/Hibonicus/" class="author">Hibonicus</a> в <a href="http://tabun.everypony.ru/blog/polls/" class="stream-blog">Опросы Табуна</a>  
+			</p>
+			<a href="http://tabun.everypony.ru/comments/8420987" class="stream-topic">Что больше всего вам нравится в фэндоме?</a>
+			<span class="block-item-comments"><i class="icon-synio-comments-small"></i>75</span>
+		</li>
+									
+		<li class="js-title-comment">
+			<p>
+				<a href="http://tabun.everypony.ru/profile/CrazyDitty/" class="author">CrazyDitty</a> в <a href="http://tabun.everypony.ru/blog/stories/" class="stream-blog">Пони-писатели</a>  
+			</p>
+			<a href="http://tabun.everypony.ru/comments/8420942" class="stream-topic">Разбирая написанное: &quot;Занавес опускается&quot;</a>
+			<span class="block-item-comments"><i class="icon-synio-comments-small"></i>87</span>
+		</li>
+									
+		<li class="js-title-comment">
+			<p>
+				<a href="http://tabun.everypony.ru/profile/TEHb/" class="author">TEHb</a> в <a href="http://tabun.everypony.ru/blog/fanart/" class="stream-blog">Я рисую обоими копытами</a>  
+			</p>
+			<a href="http://tabun.everypony.ru/comments/8420899" class="stream-topic">Мой новый арт (Рарити в кафе)</a>
+			<span class="block-item-comments"><i class="icon-synio-comments-small"></i>43</span>
+		</li>
+									
+		<li class="js-title-comment">
+			<p>
+				<a href="http://tabun.everypony.ru/profile/GL_DOS/" class="author">GL_DOS</a> в <a href="http://tabun.everypony.ru/blog/herp_derp/" class="stream-blog">HERP DERP</a>  
+			</p>
+			<a href="http://tabun.everypony.ru/comments/8420895" class="stream-topic">Ловцы снов</a>
+			<span class="block-item-comments"><i class="icon-synio-comments-small"></i>40</span>
+		</li>
+									
+		<li class="js-title-comment">
+			<p>
+				<a href="http://tabun.everypony.ru/profile/Albibarbatus/" class="author">Albibarbatus</a> в <a href="http://tabun.everypony.ru/blog/translate-comics/" class="stream-blog">Гильдия переводчиков - Переводы комиксов</a>  
+			</p>
+			<a href="http://tabun.everypony.ru/comments/8420875" class="stream-topic">Moody Mark Crusaders [33-35]</a>
+			<span class="block-item-comments"><i class="icon-synio-comments-small"></i>4</span>
+		</li>
+									
+		<li class="js-title-comment">
+			<p>
+				<a href="http://tabun.everypony.ru/profile/liza-jack/" class="author">liza-jack</a> в <a href="http://tabun.everypony.ru/blog/draw_blog/" class="stream-blog">Рисовальный Блог</a>  
+			</p>
+			<a href="http://tabun.everypony.ru/comments/8420856" class="stream-topic">Имени Зекоры пост</a>
+			<span class="block-item-comments"><i class="icon-synio-comments-small"></i>15</span>
+		</li>
+									
+		<li class="js-title-comment">
+			<p>
+				<a href="http://tabun.everypony.ru/profile/liza-jack/" class="author">liza-jack</a> в <a href="http://tabun.everypony.ru/blog/fanart/" class="stream-blog">Я рисую обоими копытами</a>  
+			</p>
+			<a href="http://tabun.everypony.ru/comments/8420838" class="stream-topic">Ещё рисунок, на этот раз цветной.(перезалив)</a>
+			<span class="block-item-comments"><i class="icon-synio-comments-small"></i>18</span>
+		</li>
+									
+		<li class="js-title-comment">
+			<p>
+				<a href="http://tabun.everypony.ru/profile/Crindorada/" class="author">Crindorada</a> в <a href="http://tabun.everypony.ru/blog/radio-everypony-ru/" class="stream-blog">Radio Everypony Ru</a>  
+			</p>
+			<a href="http://tabun.everypony.ru/comments/8420826" class="stream-topic">Эфир -   11.01.2015.  Литературная беседка:  Разбор рассказов с конкурса «Эквестрийские истории 2015»</a>
+			<span class="block-item-comments"><i class="icon-synio-comments-small"></i>15</span>
+		</li>
+	</ul>
+
+
+<footer>
+	<a href="http://tabun.everypony.ru/comments/">Весь эфир</a> · <a href="http://tabun.everypony.ru/rss/allcomments/">RSS</a>
+</footer>
+		</div>
+	</div>
+</section>
+
+<section class="block block-type-tags">
+        <header class="block-header sep"><h3>Разум Табуна</h3></header>
+	<div class="quote"><strong>xxx:</strong> А идейка нарисовать комикс по табуну со своим участием была… <img src="http://s1.hostingkartinok.com/uploads/images/2012/02/ab46f84905f9c4993b6a04a57ffad465.png" title="" align="" width="35">
+<br>
+<strong>yyy:</strong> Комикс? Репортаж-описач табуна, или..?
+<br>
+<strong>zzz:</strong> А потом Райта его зачитает. Голосом Дроздова.</div>
+</section>
+
+<div class="napony">
+	<a target="_blank" title="На шерстяные носочки для принцессы Луны." href="http://everypony.ru/ehelp/">
+		<img title="На шерстяные носочки для принцессы Луны." alt="Донат" src="http://everypony.ru/wp-content/themes/newpony/i/donate.png" style="opacity: 1;">
+	</a>
+</div>
+
+										
+
+										<div class="block block-type-blogs" id="block_blogs">
+	<header class="block-header sep">
+		<h3>Блоги</h3>
+		
+		<ul class="nav nav-pills js-block-blogs-nav">
+			<li class="active js-block-blogs-item" data-type="top"><a href="#">Топ</a></li>
+							<li class="js-block-blogs-item" data-type="join"><a href="#">Подключенные</a></li>
+				<li class="js-block-blogs-item" data-type="self"><a href="#">Мои</a></li>
+		<div class="block-update js-block-blogs-update"></div>
+					</ul>
+	</header>
+	
+	
+	<div class="block-content">
+		
+		
+		<div class="js-block-blogs-content">
+			<ul class="block-blog-list">
+			<li>
+			<a href="http://tabun.everypony.ru/blog/fanart/">Я рисую обоими копытами</a>			
+			<strong>7330.38</strong>
+		</li>
+			<li>
+			<a href="http://tabun.everypony.ru/blog/press-center/">Пони-пресса</a>			
+			<strong>4189.23</strong>
+		</li>
+			<li>
+			<a href="http://tabun.everypony.ru/blog/translations/">Гильдия переводчиков</a>			
+			<strong>4011.54</strong>
+		</li>
+			<li>
+			<a href="http://tabun.everypony.ru/blog/herp_derp/">HERP DERP</a>			
+			<strong>3639.17</strong>
+		</li>
+			<li>
+			<a href="http://tabun.everypony.ru/blog/draw_help/">Блог помощи художникам [БПНХ]</a>			
+			<strong>3478.49</strong>
+		</li>
+			<li>
+			<a href="http://tabun.everypony.ru/blog/stories/">Пони-писатели</a>			
+			<strong>3257.53</strong>
+		</li>
+			<li>
+			<a href="http://tabun.everypony.ru/blog/science/">Эквестрийский аналитический отдел</a>			
+			<strong>3224.56</strong>
+		</li>
+			<li>
+			<a href="http://tabun.everypony.ru/blog/Public_Radio_of_the_herd/">ОРТ</a>			
+			<strong>3185.11</strong>
+		</li>
+			<li>
+			<a href="http://tabun.everypony.ru/blog/lighthouse/">Полночь После Маяка</a><i title="Закрытый блог" class="icon-synio-topic-private"></i>			
+			<strong>3084.24</strong>
+		</li>
+			<li>
+			<a href="http://tabun.everypony.ru/blog/night-ponyville/">Понивиль После Полуночи</a><i title="Закрытый блог" class="icon-synio-topic-private"></i>			
+			<strong>2874.42</strong>
+		</li>
+			<li>
+			<a href="http://tabun.everypony.ru/blog/comicsworkshop/">Цех комиксов</a>			
+			<strong>2842.87</strong>
+		</li>
+			<li>
+			<a href="http://tabun.everypony.ru/blog/Order_of_Luna/">Орден Луны</a>			
+			<strong>2836.35</strong>
+		</li>
+			<li>
+			<a href="http://tabun.everypony.ru/blog/crafting/">Крафтеры и рукоделы</a>			
+			<strong>2775.47</strong>
+		</li>
+			<li>
+			<a href="http://tabun.everypony.ru/blog/irl-connection/">IRL Connection</a>			
+			<strong>2656.92</strong>
+		</li>
+			<li>
+			<a href="http://tabun.everypony.ru/blog/congratulations/">Блог поздравляшек</a>			
+			<strong>2601.22</strong>
+		</li>
+			<li>
+			<a href="http://tabun.everypony.ru/blog/rule63/">Лаборатория №63</a>			
+			<strong>2584.69</strong>
+		</li>
+			<li>
+			<a href="http://tabun.everypony.ru/blog/borderline/">На грани</a><i title="Закрытый блог" class="icon-synio-topic-private"></i>			
+			<strong>2580.92</strong>
+		</li>
+			<li>
+			<a href="http://tabun.everypony.ru/blog/news/">Срочно в номер</a>			
+			<strong>2569.53</strong>
+		</li>
+			<li>
+			<a href="http://tabun.everypony.ru/blog/foe/">Эквестрийская Пустошь</a>			
+			<strong>2445.04</strong>
+		</li>
+			<li>
+			<a href="http://tabun.everypony.ru/blog/translate-comics/">Гильдия переводчиков - Переводы комиксов</a>			
+			<strong>2419.24</strong>
+		</li>
+	</ul>				
+		</div>
+
+		
+		<footer>
+			<a href="http://tabun.everypony.ru/blogs/">Все блоги</a>
+		</footer>
+	</div>
+</div>
+
+					
+</aside>
+
+					
+			<div id="content-wrapper" >
+				<div id="content" role="main" >
+					
+						
+
+	
+					
+					
+
+
+
+<script type="text/javascript">
+	jQuery(function($){
+		ls.lang.load({"blog_fold_info":"\u0421\u0432\u0435\u0440\u043d\u0443\u0442\u044c","blog_expand_info":"\u041e \u0431\u043b\u043e\u0433\u0435"});
+	});
+</script>
+
+
+
+
+<div class="blog-top">
+	<h2 class="page-header">Полночь После Маяка  <i title="Закрытый блог" class="icon-synio-topic-private"></i></h2>
+
+	<div id="vote_area_blog_15558" class="vote-topic 
+																															vote-count-positive
+																														
+															 
+																voted 
+																
+																																	voted-up
+																																														
+															">
+		<a href="#" class="vote-item vote-up" onclick="return ls.vote.vote(15558,this,1,'blog');"><span><i></i></span></a>
+		<div class="vote-item vote-count" title="голосов: 275"><span id="vote_total_blog_15558">+3084.24</span></div>
+		<a href="#" class="vote-item vote-down" onclick="return ls.vote.vote(15558,this,-1,'blog');"><span><i></i></span></a>
+	</div>
+</div>
+
+<div class="blog-mini" id="blog-mini">
+					<button type="submit"  class="button button-small" id="button-blog-join-first-15558" data-button-additional="button-blog-join-second-15558" data-only-text="1" onclick="ls.blog.toggleJoin(this, 15558); return false;">Отписаться от блога</button>
+			<span id="blog_user_count_15558">443</span> читателя,
+	207 постов
+	<div class="fl-r" id="blog-mini-header">
+		<a href="#" class="link-dotted" onclick="ls.blog.toggleInfo(); return false;">О блоге</a>
+		<a href="http://tabun.everypony.ru/rss/blog/lighthouse/">RSS</a>
+	</div>
+</div>
+
+
+
+<div class="blog" id="blog" style="display: none">
+	<div class="blog-inner">
+		<header class="blog-header">
+			<img src="http://tabun.everypony.ru/uploads/images/00/07/51/2014/03/24/avatar_blog_lighthouse_48x48.png" alt="avatar" class="avatar" />
+			<span class="close" onclick="ls.blog.toggleInfo(); return false;"><a href="#" class="link-dotted">Свернуть</a><i class="icon-synio-close"></i></span>
+		</header>
+
+		
+		<div class="blog-content text">
+			<div class="blog-description"><span align="center"><strong>Уютные посиделки у подножия полуночного маяка! Интересные разговоры, бессмысленные споры, душевная атмосфера анархии, а так же ненависть, клопота, взаимоунижение и прочие радости сайта про пони. Вход свободный. Для принятия <s>баптизма</s> <s>ислама</s> инвайта пишите всем админам и модераторам сразу.</strong><br/>
+<br/>
+<a href="http://i.imgur.com/0YnBGt0.jpg" target="_blank" rel="nofollow"><img src="http://i.imgur.com/1Y1lkqvl.jpg"/></a><br/>
+<a href="http://i.imgur.com/4AfOkT5.png" target="_blank" rel="nofollow"><img src="http://i.imgur.com/xrL4t1rl.jpg" width="470"/></a><br/>
+<br/>
+<sub><small>Вступая в блог, вы автоматически снимаете ответственность с администрации и других пользователей за возгорание вашей задницы из-за содержимого любого поста или комментария. Помните, что это интернет, тут могут и в пинус послать.<br/>
+<h6>Хочешь годный контент в блоге — производи его сам! Иначе не жалуйся.</h6><a href="https://yadi.sk/d/SQgaE9g6dMhsb" rel="nofollow"><h6>шаблон и общие рекомендации</h6></a></small><br/>
+Теги: Говнокод. Кровожадные хохлы. Срач. Целевая Аудитория. Дарк Солс. #табунтвиттер. Мадока. Где антрота? Револьвер Кармина. АШТРИСЕТ. Файрфокс — говно. Цивилизация. Опера — говно. Грузи на имгур. Виндаговно. Милота. Путин. Андроид. Пилите новый чат. tabun.andreymal.org. Ватный атлантис. Стабильность. Евроинтегрированный. Я — совершенная кошка. Тупой либераст. Лучшая пони. Такбир! Маяк маячит. Кармаклоппер. 2000 комментариев. Роскомнадзор. Майк разливает жир. Скакать. Забаненный Димон. Предки-дворяне. Мне отец рассказывал. Троллинг. Фурфаг. Ленин упал. У JBonda прогресс. Я здал ЕГЭ, а они нет. Бездуховность. Самолеты. Элитный ВУЗ. Фошист. Игнор не работает. Смайлодрочер. Бандера. Укроармия. Накати. Форкать Дебиан. Гуманитарий. Годнота. Диагноз: еблан. Цветные кони. Как-то скучновато. Держи огнетушитель. Мамку твою сухонам драл.</sub></span><br/>
+<hr/><br/>
+</div>
+		
+			
+			<ul class="blog-info">
+				<li><span>Создан</span> <strong>25 июля 2013</strong></li>
+				<li><span>Постов</span> <strong>207</strong></li>
+				<li><span><a href="http://tabun.everypony.ru/blog/lighthouse/users/">Подписчиков</a></span> <strong>443</strong></li>
+				<li class="rating"><span>Рейтинг</span> <strong>3084.24</strong></li>
+			</ul>
+			
+			
+			
+			<strong>Администраторы (5)</strong><br />
+			<span class="user-avatar">
+				<a href="http://tabun.everypony.ru/profile/Liksys/"><img src="http://tabun.everypony.ru/uploads/images/00/07/51/2013/01/13/avatar_24x24.png?004709" alt="avatar" /></a>		
+				<a href="http://tabun.everypony.ru/profile/Liksys/">Liksys</a>
+			</span>
+						
+									  
+					<span class="user-avatar">
+						<a href="http://tabun.everypony.ru/profile/Saturn_Z/"><img src="http://tabun.everypony.ru/uploads/images/00/30/67/2015/01/07/avatar_24x24.jpg?124913" alt="avatar" /></a>		
+						<a href="http://tabun.everypony.ru/profile/Saturn_Z/">Saturn_Z</a>
+					</span>
+									  
+					<span class="user-avatar">
+						<a href="http://tabun.everypony.ru/profile/D1scord/"><img src="http://tabun.everypony.ru/uploads/images/01/01/09/2013/07/26/avatar_24x24.png?151527" alt="avatar" /></a>		
+						<a href="http://tabun.everypony.ru/profile/D1scord/">D1scord</a>
+					</span>
+									  
+					<span class="user-avatar">
+						<a href="http://tabun.everypony.ru/profile/ncuxonam/"><img src="http://tabun.everypony.ru/uploads/images/01/05/74/2015/01/07/avatar_24x24.png?151131" alt="avatar" /></a>		
+						<a href="http://tabun.everypony.ru/profile/ncuxonam/">ncuxonam</a>
+					</span>
+									  
+					<span class="user-avatar">
+						<a href="http://tabun.everypony.ru/profile/EpicMan2/"><img src="http://tabun.everypony.ru/uploads/images/01/38/37/2014/12/14/avatar_24x24.png?191432" alt="avatar" /></a>		
+						<a href="http://tabun.everypony.ru/profile/EpicMan2/">EpicMan2</a>
+					</span>
+					
+			<br /><br />		
+
+			
+			<strong>Модераторы (3)</strong><br />
+									
+				  
+												
+					<span class="user-avatar">
+						<a href="http://tabun.everypony.ru/profile/Todash/"><img src="http://tabun.everypony.ru/uploads/images/00/03/60/2013/10/31/avatar_24x24.jpg?215626" alt="avatar" /></a>		
+						<a href="http://tabun.everypony.ru/profile/Todash/">Todash</a>
+					</span>
+				  
+												
+					<span class="user-avatar">
+						<a href="http://tabun.everypony.ru/profile/Moonyasha/"><img src="http://tabun.everypony.ru/uploads/images/01/53/00/2014/01/11/avatar_24x24.jpg?153723" alt="avatar" /></a>		
+						<a href="http://tabun.everypony.ru/profile/Moonyasha/">Moonyasha</a>
+					</span>
+				  
+												
+					<span class="user-avatar">
+						<a href="http://tabun.everypony.ru/profile/LuckyHorseshoe/"><img src="http://tabun.everypony.ru/uploads/images/01/68/44/2014/12/30/avatar_24x24.jpg?184251" alt="avatar" /></a>		
+						<a href="http://tabun.everypony.ru/profile/LuckyHorseshoe/">LuckyHorseshoe</a>
+					</span>
+											
+						    
+    
+
+			
+			
+			
+					</div>
+	</div>
+	
+	<footer class="blog-footer" id="blog-footer">
+					<button type="submit"  class="button button-small" id="button-blog-join-second-15558" data-button-additional="button-blog-join-first-15558" data-only-text="1" onclick="ls.blog.toggleJoin(this, 15558); return false;">Отписаться от блога</button>
+				<a href="http://tabun.everypony.ru/rss/blog/lighthouse/" class="rss">RSS</a>
+		
+		<div class="admin">
+			Смотритель —
+			<a href="http://tabun.everypony.ru/profile/Liksys/"><img src="http://tabun.everypony.ru/uploads/images/00/07/51/2013/01/13/avatar_24x24.png?004709" alt="avatar" class="avatar" /></a>
+			<a href="http://tabun.everypony.ru/profile/Liksys/">Liksys</a>
+		</div>
+	</footer>
+</div>
+
+
+
+<div class="nav-menu-wrapper">
+	<ul class="nav nav-pills">
+		<li class="active"><a href="http://tabun.everypony.ru/blog/lighthouse/">Интересные</a></li>
+		<li ><a href="http://tabun.everypony.ru/blog/lighthouse/newall/">Новые</a> <a href="http://tabun.everypony.ru/blog/lighthouse/new/" class="new">+1</a></li>
+		<li ><a href="http://tabun.everypony.ru/blog/lighthouse/discussed/">Обсуждаемые</a></li>
+		<li ><a href="http://tabun.everypony.ru/blog/lighthouse/top/">TOP</a></li>
+		
+	</ul>
+
+	</div>
+
+
+
+
+		
+
+									
+
+<article class="topic topic-type-topic js-topic">
+	<header class="topic-header">
+		<h1 class="topic-title word-wrap">
+							<a href="http://tabun.everypony.ru/blog/lighthouse/120778.html">Чат-пост #165 им. Великой Объединительницы</a>
+						
+						
+					</h1>
+		
+		
+		<div class="topic-info">
+			<div class="topic-info-vote">
+				<div id="vote_area_topic_120778" class="vote-topic
+										
+											vote-not-self
+										
+											not-voted
+										
+										
+											vote-not-expired
+					">
+					
+					<div class="vote-item vote-up" onclick="return ls.vote.vote(120778,this,1,'topic');"><span><i></i></span></div>
+					<div class="vote-item vote-count" title="всего проголосовало: 20">
+						<span id="vote_total_topic_120778">
+															<i onclick="return ls.vote.vote(120778,this,0,'topic');">?</i>
+													</span>
+					</div>
+					<div class="vote-item vote-down" onclick="return ls.vote.vote(120778,this,-1,'topic');"><span><i></i></span></div>
+				</div>
+			</div>
+
+			<a href="http://tabun.everypony.ru/profile/Liksys/"><img src="http://tabun.everypony.ru/uploads/images/00/07/51/2013/01/13/avatar_24x24.png?004709" alt="avatar" class="avatar" /></a>
+			<a rel="author" href="http://tabun.everypony.ru/profile/Liksys/">Liksys</a> в блоге
+			<a href="http://tabun.everypony.ru/blog/lighthouse/" class="topic-blog private-blog">Полночь После Маяка</a> 
+			
+			
+				</div>
+	</header>
+
+   
+   
+<div class="topic-content text">
+	    <header class="topic-header">
+    <ul class="topic-actions">
+        
+            </ul>
+</header>
+
+	
+			<span align="center"><img src="http://i.imgur.com/mTGK9jG.jpg" width="500"/></span><br/>
+<br/>
+<span align="center"><a href="http://tabun.everypony.ru/blog/lighthouse/120583.html" rel="nofollow">&lt;===8 Предыдущий чат</a> | Следующий чат 8===&gt;</span><br/>
+<span align="center"><h4>11.01.2015</h4></span><br/>
+
+		
+					<br/>
+			<a href="http://tabun.everypony.ru/blog/lighthouse/120778.html#cut" title="Читать дальше">
+									Читать дальше →
+							</a>
+				
+	
+</div> 
+
+
+				
+
+	<footer class="topic-footer">
+		<p class="topic-tags js-favourite-insert-after-form js-favourite-tags-topic-120778">
+		Теги: 
+			<a rel="tag" href="http://tabun.everypony.ru/tag/%D0%BC%D0%B0%D1%8F%D0%BA-%D1%85%D1%83%D1%8F%D0%BA/">маяк-хуяк</a><span class="topic-tags-edit js-favourite-tag-edit" style="display:none;"><a href="#" onclick="return ls.favourite.showEditTags(120778,'topic',this);" class="link-dotted">изменить свои теги</a></span>		</p>
+
+		<ul class="topic-info">
+			<li class="topic-info-date">
+				<time datetime="2015-01-11T20:27:01+03:00" title="Вчера в 20:27">
+					11 января 2015, 20:27
+				</time>
+			</li>
+			<!-- Обработка избранного -->			
+			<li class="topic-info-favourite" onclick="return ls.favourite.toggle(120778,$('#fav_topic_120778'),'topic');">
+				<i id="fav_topic_120778" class="favourite ">В избранное</i>
+				<!-- <span class="favourite-count" id="fav_count_topic_120778" style="display: none"></span> -->
+			</li>
+
+							<li class="topic-info-comments">
+											<a href="http://tabun.everypony.ru/blog/lighthouse/120778.html#comments" title="читать комментарии">
+															<i class="icon-synio-comments-green-filled"></i>
+														
+							<span>249</span>
+						</a>
+									</li>
+			
+
+						
+			
+		</ul>
+
+		
+			</footer>
+</article> <!-- /.topic -->
+
+
+											
+
+<article class="topic topic-type-topic js-topic">
+	<header class="topic-header">
+		<h1 class="topic-title word-wrap">
+							<a href="http://tabun.everypony.ru/blog/lighthouse/120583.html">Чат #164 имени лютой дрочки на Мику Хатцуне</a>
+						
+						
+					</h1>
+		
+		
+		<div class="topic-info">
+			<div class="topic-info-vote">
+				<div id="vote_area_topic_120583" class="vote-topic
+										
+											vote-not-self
+										
+											not-voted
+										
+										
+											vote-not-expired
+					">
+					
+					<div class="vote-item vote-up" onclick="return ls.vote.vote(120583,this,1,'topic');"><span><i></i></span></div>
+					<div class="vote-item vote-count" title="всего проголосовало: 34">
+						<span id="vote_total_topic_120583">
+															<i onclick="return ls.vote.vote(120583,this,0,'topic');">?</i>
+													</span>
+					</div>
+					<div class="vote-item vote-down" onclick="return ls.vote.vote(120583,this,-1,'topic');"><span><i></i></span></div>
+				</div>
+			</div>
+
+			<a href="http://tabun.everypony.ru/profile/HerbSmoker/"><img src="http://tabun.everypony.ru/uploads/images/01/25/09/2014/05/13/avatar_24x24.jpg?181337" alt="avatar" class="avatar" /></a>
+			<a rel="author" href="http://tabun.everypony.ru/profile/HerbSmoker/">HerbSmoker</a> в блоге
+			<a href="http://tabun.everypony.ru/blog/lighthouse/" class="topic-blog private-blog">Полночь После Маяка</a> 
+			
+			
+				</div>
+	</header>
+
+   
+   
+<div class="topic-content text">
+	    <header class="topic-header">
+    <ul class="topic-actions">
+        
+            </ul>
+</header>
+
+	
+			<span align="center"><img src="http://i2.kym-cdn.com/photos/images/newsfeed/000/866/584/5cb.gif"/></span><br/>
+<br/>
+<span align="center"><a href="http://tabun.everypony.ru/blog/lighthouse/120273.html" rel="nofollow">&lt;===8 Предыдущий чат</a> | <a href="http://tabun.everypony.ru/blog/lighthouse/120778.html" rel="nofollow">Следующий чат 8===&gt;</a></span><br/>
+<span align="center"><h4>9.1.2015</h4></span><br/>
+
+		
+					<br/>
+			<a href="http://tabun.everypony.ru/blog/lighthouse/120583.html#cut" title="Читать дальше">
+									Читать дальше →
+							</a>
+				
+	
+</div> 
+
+
+				
+
+	<footer class="topic-footer">
+		<p class="topic-tags js-favourite-insert-after-form js-favourite-tags-topic-120583">
+		Теги: 
+			<a rel="tag" href="http://tabun.everypony.ru/tag/%D0%A5%D0%B0%D1%86%D1%83%D0%BD%D0%B5%20%D0%9C%D0%B8%D0%BA%D1%83/">Хацуне Мику</a>, <a rel="tag" href="http://tabun.everypony.ru/tag/%D0%9C%D0%9F%D0%9F/">МПП</a>, <a rel="tag" href="http://tabun.everypony.ru/tag/%D0%BC%D0%B0%D1%8F%D0%BA-%D1%85%D1%83%D1%8F%D0%BA/">маяк-хуяк</a>, <a rel="tag" href="http://tabun.everypony.ru/tag/%D0%BF%D0%BE%D0%BB%D0%B8%D1%82%D0%BE%D1%82%D0%B0/">политота</a>, <a rel="tag" href="http://tabun.everypony.ru/tag/%D1%80%D0%B0%D1%81%D0%BF%D0%B5%D0%B3%D0%B0%D1%81%D0%B8%D0%BB%D0%BE/">распегасило</a><span class="topic-tags-edit js-favourite-tag-edit" style="display:none;"><a href="#" onclick="return ls.favourite.showEditTags(120583,'topic',this);" class="link-dotted">изменить свои теги</a></span>		</p>
+
+		<ul class="topic-info">
+			<li class="topic-info-date">
+				<time datetime="2015-01-09T20:37:53+03:00" title="9 января 2015, 20:37">
+					9 января 2015, 20:37
+				</time>
+			</li>
+			<!-- Обработка избранного -->			
+			<li class="topic-info-favourite" onclick="return ls.favourite.toggle(120583,$('#fav_topic_120583'),'topic');">
+				<i id="fav_topic_120583" class="favourite ">В избранное</i>
+				<!-- <span class="favourite-count" id="fav_count_topic_120583" style="display: none"></span> -->
+			</li>
+
+							<li class="topic-info-comments">
+											<a href="http://tabun.everypony.ru/blog/lighthouse/120583.html#comments" title="читать комментарии">
+															<i class="icon-synio-comments-green-filled"></i>
+														
+							<span>931</span>
+						</a>
+									</li>
+			
+
+						
+			
+		</ul>
+
+		
+			</footer>
+</article> <!-- /.topic -->
+
+
+											
+
+<article class="topic topic-type-topic js-topic">
+	<header class="topic-header">
+		<h1 class="topic-title word-wrap">
+							<a href="http://tabun.everypony.ru/blog/lighthouse/120273.html">Чат-пост #163 им. ежа за трапезой</a>
+						
+						
+					</h1>
+		
+		
+		<div class="topic-info">
+			<div class="topic-info-vote">
+				<div id="vote_area_topic_120273" class="vote-topic
+										
+											vote-not-self
+										
+											not-voted
+										
+										
+											vote-not-expired
+					">
+					
+					<div class="vote-item vote-up" onclick="return ls.vote.vote(120273,this,1,'topic');"><span><i></i></span></div>
+					<div class="vote-item vote-count" title="всего проголосовало: 23">
+						<span id="vote_total_topic_120273">
+															<i onclick="return ls.vote.vote(120273,this,0,'topic');">?</i>
+													</span>
+					</div>
+					<div class="vote-item vote-down" onclick="return ls.vote.vote(120273,this,-1,'topic');"><span><i></i></span></div>
+				</div>
+			</div>
+
+			<a href="http://tabun.everypony.ru/profile/lunarinitiate/"><img src="http://tabun.everypony.ru/uploads/images/01/52/42/2015/01/10/avatar_24x24.png?103729" alt="avatar" class="avatar" /></a>
+			<a rel="author" href="http://tabun.everypony.ru/profile/lunarinitiate/">lunarinitiate</a> в блоге
+			<a href="http://tabun.everypony.ru/blog/lighthouse/" class="topic-blog private-blog">Полночь После Маяка</a> 
+			
+			
+				</div>
+	</header>
+
+   
+   
+<div class="topic-content text">
+	    <header class="topic-header">
+    <ul class="topic-actions">
+        
+            </ul>
+</header>
+
+	
+			<span align="center"><img src="http://cdn.animals-zone.com/wp-content/uploads/2012/10/hedgehog-eating-pink-bowl.jpg"/><br/>
+<h4>6.12.15</h4><a href="http://tabun.everypony.ru/blog/lighthouse/120075.html" rel="nofollow">&lt;= Предыдущий чат-пост</a> | <a href="http://tabun.everypony.ru/blog/lighthouse/120583.html" rel="nofollow">Следующий чат-пост =&gt;</a><br/>
+</span>
+		
+					<br/>
+			<a href="http://tabun.everypony.ru/blog/lighthouse/120273.html#cut" title="Читать дальше">
+									Вбрасывать дальше
+							</a>
+				
+	
+</div> 
+
+
+				
+
+	<footer class="topic-footer">
+		<p class="topic-tags js-favourite-insert-after-form js-favourite-tags-topic-120273">
+		Теги: 
+			<a rel="tag" href="http://tabun.everypony.ru/tag/%D1%87%D0%B0%D1%82-%D0%BF%D0%BE%D1%81%D1%82/">чат-пост</a>, <a rel="tag" href="http://tabun.everypony.ru/tag/%D0%BC%D0%B0%D1%8F%D0%BA-%D1%85%D1%83%D1%8F%D0%BA/">маяк-хуяк</a>, <a rel="tag" href="http://tabun.everypony.ru/tag/%D0%9C%D0%9F%D0%9F/">МПП</a>, <a rel="tag" href="http://tabun.everypony.ru/tag/%D0%B1%D0%B5%D0%B7%D0%B4%D1%83%D1%85%D0%BE%D0%B2%D0%BD%D0%BE%D1%81%D1%82%D1%8C/">бездуховность</a><span class="topic-tags-edit js-favourite-tag-edit" style="display:none;"><a href="#" onclick="return ls.favourite.showEditTags(120273,'topic',this);" class="link-dotted">изменить свои теги</a></span>		</p>
+
+		<ul class="topic-info">
+			<li class="topic-info-date">
+				<time datetime="2015-01-06T16:44:06+03:00" title="6 января 2015, 16:44">
+					6 января 2015, 16:44
+				</time>
+			</li>
+			<!-- Обработка избранного -->			
+			<li class="topic-info-favourite" onclick="return ls.favourite.toggle(120273,$('#fav_topic_120273'),'topic');">
+				<i id="fav_topic_120273" class="favourite ">В избранное</i>
+				<!-- <span class="favourite-count" id="fav_count_topic_120273" style="display: none"></span> -->
+			</li>
+
+							<li class="topic-info-comments">
+											<a href="http://tabun.everypony.ru/blog/lighthouse/120273.html#comments" title="читать комментарии">
+															<i class="icon-synio-comments-green-filled"></i>
+														
+							<span>1690</span>
+						</a>
+									</li>
+			
+
+						
+			
+		</ul>
+
+		
+			</footer>
+</article> <!-- /.topic -->
+
+
+											
+
+<article class="topic topic-type-topic js-topic">
+	<header class="topic-header">
+		<h1 class="topic-title word-wrap">
+							<a href="http://tabun.everypony.ru/blog/lighthouse/120075.html">Чат-пост #162 им. BadDay</a>
+						
+						
+					</h1>
+		
+		
+		<div class="topic-info">
+			<div class="topic-info-vote">
+				<div id="vote_area_topic_120075" class="vote-topic
+										
+											vote-not-self
+										
+											not-voted
+										
+										
+											vote-not-expired
+					">
+					
+					<div class="vote-item vote-up" onclick="return ls.vote.vote(120075,this,1,'topic');"><span><i></i></span></div>
+					<div class="vote-item vote-count" title="всего проголосовало: 32">
+						<span id="vote_total_topic_120075">
+															<i onclick="return ls.vote.vote(120075,this,0,'topic');">?</i>
+													</span>
+					</div>
+					<div class="vote-item vote-down" onclick="return ls.vote.vote(120075,this,-1,'topic');"><span><i></i></span></div>
+				</div>
+			</div>
+
+			<a href="http://tabun.everypony.ru/profile/LuckyHorseshoe/"><img src="http://tabun.everypony.ru/uploads/images/01/68/44/2014/12/30/avatar_24x24.jpg?184251" alt="avatar" class="avatar" /></a>
+			<a rel="author" href="http://tabun.everypony.ru/profile/LuckyHorseshoe/">LuckyHorseshoe</a> в блоге
+			<a href="http://tabun.everypony.ru/blog/lighthouse/" class="topic-blog private-blog">Полночь После Маяка</a> 
+			
+			
+				</div>
+	</header>
+
+   
+   
+<div class="topic-content text">
+	    <header class="topic-header">
+    <ul class="topic-actions">
+        
+            </ul>
+</header>
+
+	
+			<span align="center"><img src="http://i.imgur.com/lkIM49X.jpg"/><br/>
+<h4>5.12.15</h4><a href="http://tabun.everypony.ru/blog/lighthouse/119872.html" rel="nofollow">&lt;= Предыдущий чат-пост</a> | <a href="http://tabun.everypony.ru/blog/lighthouse/120273.html" rel="nofollow">Следующий чат-пост =&gt;</a><br/>
+</span>
+		
+					<br/>
+			<a href="http://tabun.everypony.ru/blog/lighthouse/120075.html#cut" title="Читать дальше">
+									Упасть внутрь →
+							</a>
+				
+	
+</div> 
+
+
+				
+
+	<footer class="topic-footer">
+		<p class="topic-tags js-favourite-insert-after-form js-favourite-tags-topic-120075">
+		Теги: 
+			<a rel="tag" href="http://tabun.everypony.ru/tag/%D0%9C%D0%9F%D0%9F/">МПП</a>, <a rel="tag" href="http://tabun.everypony.ru/tag/%D1%87%D0%B0%D1%82-%D0%BF%D0%BE%D1%81%D1%82/">чат-пост</a><span class="topic-tags-edit js-favourite-tag-edit" style="display:none;"><a href="#" onclick="return ls.favourite.showEditTags(120075,'topic',this);" class="link-dotted">изменить свои теги</a></span>		</p>
+
+		<ul class="topic-info">
+			<li class="topic-info-date">
+				<time datetime="2015-01-05T17:05:31+03:00" title="5 января 2015, 17:05">
+					5 января 2015, 17:05
+				</time>
+			</li>
+			<!-- Обработка избранного -->			
+			<li class="topic-info-favourite" onclick="return ls.favourite.toggle(120075,$('#fav_topic_120075'),'topic');">
+				<i id="fav_topic_120075" class="favourite ">В избранное</i>
+				<!-- <span class="favourite-count" id="fav_count_topic_120075" style="display: none"></span> -->
+			</li>
+
+							<li class="topic-info-comments">
+											<a href="http://tabun.everypony.ru/blog/lighthouse/120075.html#comments" title="читать комментарии">
+															<i class="icon-synio-comments-green-filled"></i>
+														
+							<span>1128</span>
+						</a>
+									</li>
+			
+
+						
+			
+		</ul>
+
+		
+			</footer>
+</article> <!-- /.topic -->
+
+
+											
+	
+<article class="topic topic-type-topic js-topic">
+	<header class="topic-header">
+		<h1 class="topic-title word-wrap">
+							<a href="http://tabun.everypony.ru/blog/lighthouse/119872.html">#161 долгожданный Щат-пост имени независимых дев с членами</a>
+						
+						
+					</h1>
+		
+		
+		<div class="topic-info">
+			<div class="topic-info-vote">
+				<div id="vote_area_topic_119872" class="vote-topic
+																		vote-count-positive
+																
+										
+											not-voted
+										
+											vote-nobuttons
+										
+											vote-not-expired
+					">
+					
+					<div class="vote-item vote-up" onclick="return ls.vote.vote(119872,this,1,'topic');"><span><i></i></span></div>
+					<div class="vote-item vote-count" title="всего проголосовало: 33">
+						<span id="vote_total_topic_119872">
+															+72
+													</span>
+					</div>
+					<div class="vote-item vote-down" onclick="return ls.vote.vote(119872,this,-1,'topic');"><span><i></i></span></div>
+				</div>
+			</div>
+
+			<a href="http://tabun.everypony.ru/profile/Hibonicus/"><img src="http://tabun.everypony.ru/uploads/images/00/13/56/2014/12/30/avatar_24x24.png?151911" alt="avatar" class="avatar" /></a>
+			<a rel="author" href="http://tabun.everypony.ru/profile/Hibonicus/">Hibonicus</a> в блоге
+			<a href="http://tabun.everypony.ru/blog/lighthouse/" class="topic-blog private-blog">Полночь После Маяка</a> 
+			
+			
+					<span class="topic-actions">								   
+									<span class="edit"><i class="icon-synio-actions-edit"></i><a href="http://tabun.everypony.ru/topic/edit/119872/" title="Редактировать" class="actions-edit">Редактировать</a></span>
+								
+									<span class="delete"><i class="icon-synio-actions-delete"></i><a href="http://tabun.everypony.ru/topic/delete/119872/?security_ls_key=fdb7417827c5fd27617988c90328c4df" title="Удалить" onclick="return confirm('Вы действительно хотите удалить пост?');" class="actions-delete">Удалить</a></span>
+							</span>
+				</div>
+	</header>
+
+   
+   
+<div class="topic-content text">
+	
+	
+			<span align="center"><img src="http://i.imgur.com/vFx5Ua8.jpg" width="550"/><br/>
+<h4>01.02.2015</h4><a href="http://tabun.everypony.ru/blog/lighthouse/119327" rel="nofollow">&lt;= Предыдущий чат-пост</a> | <a href="http://tabun.everypony.ru/blog/lighthouse/120075.html" rel="nofollow">Следующий чат-пост =&gt;</a><br/>
+</span>
+		
+					<br/>
+			<a href="http://tabun.everypony.ru/blog/lighthouse/119872.html#cut" title="Читать дальше">
+									Упасть внутрь →
+							</a>
+				
+	
+</div> 
+
+
+				
+
+	<footer class="topic-footer">
+		<p class="topic-tags js-favourite-insert-after-form js-favourite-tags-topic-119872">
+		Теги: 
+			<a rel="tag" href="http://tabun.everypony.ru/tag/123/">123</a><span class="topic-tags-edit js-favourite-tag-edit" style="display:none;"><a href="#" onclick="return ls.favourite.showEditTags(119872,'topic',this);" class="link-dotted">изменить свои теги</a></span>		</p>
+
+		<ul class="topic-info">
+			<li class="topic-info-date">
+				<time datetime="2015-01-02T15:58:28+03:00" title="2 января 2015, 15:58">
+					2 января 2015, 15:58
+				</time>
+			</li>
+			<!-- Обработка избранного -->			
+			<li class="topic-info-favourite" onclick="return ls.favourite.toggle(119872,$('#fav_topic_119872'),'topic');">
+				<i id="fav_topic_119872" class="favourite ">В избранное</i>
+				<!-- <span class="favourite-count" id="fav_count_topic_119872" >2</span> -->
+			</li>
+
+							<li class="topic-info-comments">
+											<a href="http://tabun.everypony.ru/blog/lighthouse/119872.html#comments" title="читать комментарии">
+															<i class="icon-synio-comments-green-filled"></i>
+														
+							<span>1219</span>
+						</a>
+									</li>
+			
+
+													
+			
+		</ul>
+
+		
+			</footer>
+</article> <!-- /.topic -->
+
+
+											
+
+<article class="topic topic-type-question js-topic">
+	<header class="topic-header">
+		<h1 class="topic-title word-wrap">
+							<a href="http://tabun.everypony.ru/blog/lighthouse/119366.html">За кого мне выйти?</a>
+						
+						
+					</h1>
+		
+		
+		<div class="topic-info">
+			<div class="topic-info-vote">
+				<div id="vote_area_topic_119366" class="vote-topic
+										
+											vote-not-self
+										
+											not-voted
+										
+										
+											vote-not-expired
+					">
+					
+					<div class="vote-item vote-up" onclick="return ls.vote.vote(119366,this,1,'topic');"><span><i></i></span></div>
+					<div class="vote-item vote-count" title="всего проголосовало: 34">
+						<span id="vote_total_topic_119366">
+															<i onclick="return ls.vote.vote(119366,this,0,'topic');">?</i>
+													</span>
+					</div>
+					<div class="vote-item vote-down" onclick="return ls.vote.vote(119366,this,-1,'topic');"><span><i></i></span></div>
+				</div>
+			</div>
+
+			<a href="http://tabun.everypony.ru/profile/LuckyHorseshoe/"><img src="http://tabun.everypony.ru/uploads/images/01/68/44/2014/12/30/avatar_24x24.jpg?184251" alt="avatar" class="avatar" /></a>
+			<a rel="author" href="http://tabun.everypony.ru/profile/LuckyHorseshoe/">LuckyHorseshoe</a> в блоге
+			<a href="http://tabun.everypony.ru/blog/lighthouse/" class="topic-blog private-blog">Полночь После Маяка</a> 
+			
+			
+				</div>
+	</header>
+
+
+
+<div id="topic_question_area_119366" class="poll">
+			<ul class="poll-result" id="poll-result-original-119366">
+			<li >
+			<dl>
+				<dt>
+					<strong>6.3%</strong><br />
+					<span>(5)</span>
+				</dt>
+				<dd>За Хиба<div style="width: 6.3%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>1.3%</strong><br />
+					<span>(1)</span>
+				</dt>
+				<dd>За Атлантизита<div style="width: 1.3%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>0.0%</strong><br />
+					<span>(0)</span>
+				</dt>
+				<dd>За Юпброня<div style="width: 0.0%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>1.3%</strong><br />
+					<span>(1)</span>
+				</dt>
+				<dd>За Френдлипони<div style="width: 1.3%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>0.0%</strong><br />
+					<span>(0)</span>
+				</dt>
+				<dd>За Белсебора<div style="width: 0.0%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>5.0%</strong><br />
+					<span>(4)</span>
+				</dt>
+				<dd>За Ликсиса<div style="width: 5.0%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>5.0%</strong><br />
+					<span>(4)</span>
+				</dt>
+				<dd>За Эпикмэна<div style="width: 5.0%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>7.5%</strong><br />
+					<span>(6)</span>
+				</dt>
+				<dd>За Сатурна<div style="width: 7.5%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>3.8%</strong><br />
+					<span>(3)</span>
+				</dt>
+				<dd>За Психопата<div style="width: 3.8%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>7.5%</strong><br />
+					<span>(6)</span>
+				</dt>
+				<dd>За Андреймала<div style="width: 7.5%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>2.5%</strong><br />
+					<span>(2)</span>
+				</dt>
+				<dd>За Майка<div style="width: 2.5%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>7.5%</strong><br />
+					<span>(6)</span>
+				</dt>
+				<dd>За Гленна<div style="width: 7.5%;" ></div></dd>
+			</dl>
+		</li>
+			<li class="most">
+			<dl>
+				<dt>
+					<strong>52.5%</strong><br />
+					<span>(42)</span>
+				</dt>
+				<dd>Создай гарем где будут все из списка<div style="width: 52.5%;" ></div></dd>
+			</dl>
+		</li>
+	</ul>
+
+
+<ul class="poll-result" id="poll-result-sort-119366" style="display: none;">
+			<li class="most">
+			<dl>
+				<dt>
+					<strong>52.5%</strong><br />
+					<span>(42)</span>
+				</dt>
+				<dd>Создай гарем где будут все из списка<div style="width: 52.5%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>7.5%</strong><br />
+					<span>(6)</span>
+				</dt>
+				<dd>За Сатурна<div style="width: 7.5%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>7.5%</strong><br />
+					<span>(6)</span>
+				</dt>
+				<dd>За Андреймала<div style="width: 7.5%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>7.5%</strong><br />
+					<span>(6)</span>
+				</dt>
+				<dd>За Гленна<div style="width: 7.5%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>6.3%</strong><br />
+					<span>(5)</span>
+				</dt>
+				<dd>За Хиба<div style="width: 6.3%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>5.0%</strong><br />
+					<span>(4)</span>
+				</dt>
+				<dd>За Эпикмэна<div style="width: 5.0%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>5.0%</strong><br />
+					<span>(4)</span>
+				</dt>
+				<dd>За Ликсиса<div style="width: 5.0%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>3.8%</strong><br />
+					<span>(3)</span>
+				</dt>
+				<dd>За Психопата<div style="width: 3.8%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>2.5%</strong><br />
+					<span>(2)</span>
+				</dt>
+				<dd>За Майка<div style="width: 2.5%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>1.3%</strong><br />
+					<span>(1)</span>
+				</dt>
+				<dd>За Атлантизита<div style="width: 1.3%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>1.3%</strong><br />
+					<span>(1)</span>
+				</dt>
+				<dd>За Френдлипони<div style="width: 1.3%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>0.0%</strong><br />
+					<span>(0)</span>
+				</dt>
+				<dd>За Белсебора<div style="width: 0.0%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>0.0%</strong><br />
+					<span>(0)</span>
+				</dt>
+				<dd>За Юпброня<div style="width: 0.0%;" ></div></dd>
+			</dl>
+		</li>
+	</ul>
+
+
+
+<div class="poll-total">
+	<i class="poll-sort" title="Включить\выключить сортировку" onclick="return ls.poll.switchResult(this, 119366);"></i>
+	
+	Проголосовало &mdash; 107<br />
+	Воздержалось &mdash; 27
+</div>
+	</div>
+
+
+<div class="topic-content text">
+	    <header class="topic-header">
+    <ul class="topic-actions">
+        
+            </ul>
+</header>
+
+	
+	
+	
+	
+</div> 
+
+
+
+				
+
+	<footer class="topic-footer">
+		<p class="topic-tags js-favourite-insert-after-form js-favourite-tags-topic-119366">
+		Теги: 
+			<a rel="tag" href="http://tabun.everypony.ru/tag/%D0%A1%D0%92%D0%90%D0%94%D0%AC%D0%91%D0%90%20%D0%92%20%D0%9C%D0%9F%D0%9F%21%21%21/">СВАДЬБА В МПП!!!</a><span class="topic-tags-edit js-favourite-tag-edit" style="display:none;"><a href="#" onclick="return ls.favourite.showEditTags(119366,'topic',this);" class="link-dotted">изменить свои теги</a></span>		</p>
+
+		<ul class="topic-info">
+			<li class="topic-info-date">
+				<time datetime="2014-12-29T09:20:32+03:00" title="29 декабря 2014, 09:20">
+					29 декабря 2014, 09:20
+				</time>
+			</li>
+			<!-- Обработка избранного -->			
+			<li class="topic-info-favourite" onclick="return ls.favourite.toggle(119366,$('#fav_topic_119366'),'topic');">
+				<i id="fav_topic_119366" class="favourite ">В избранное</i>
+				<!-- <span class="favourite-count" id="fav_count_topic_119366" style="display: none"></span> -->
+			</li>
+
+							<li class="topic-info-comments">
+											<a href="http://tabun.everypony.ru/blog/lighthouse/119366.html#comments" title="читать комментарии" class="new">
+							<i class="icon-synio-comments-green-filled"></i>
+							<span>144</span>
+							<span class="count">+3</span>
+						</a>
+									</li>
+			
+
+						
+			
+		</ul>
+
+		
+			</footer>
+</article> <!-- /.topic -->
+
+											
+
+<article class="topic topic-type-topic js-topic">
+	<header class="topic-header">
+		<h1 class="topic-title word-wrap">
+							<a href="http://tabun.everypony.ru/blog/lighthouse/119327.html">Чат-пост #160 Новогодний!</a>
+						
+						
+					</h1>
+		
+		
+		<div class="topic-info">
+			<div class="topic-info-vote">
+				<div id="vote_area_topic_119327" class="vote-topic
+										
+											vote-not-self
+										
+											not-voted
+										
+										
+											vote-not-expired
+					">
+					
+					<div class="vote-item vote-up" onclick="return ls.vote.vote(119327,this,1,'topic');"><span><i></i></span></div>
+					<div class="vote-item vote-count" title="всего проголосовало: 33">
+						<span id="vote_total_topic_119327">
+															<i onclick="return ls.vote.vote(119327,this,0,'topic');">?</i>
+													</span>
+					</div>
+					<div class="vote-item vote-down" onclick="return ls.vote.vote(119327,this,-1,'topic');"><span><i></i></span></div>
+				</div>
+			</div>
+
+			<a href="http://tabun.everypony.ru/profile/Atlantisit/"><img src="http://tabun.everypony.ru/uploads/images/01/43/17/2014/10/19/avatar_24x24.png?014037" alt="avatar" class="avatar" /></a>
+			<a rel="author" href="http://tabun.everypony.ru/profile/Atlantisit/">Atlantisit</a> в блоге
+			<a href="http://tabun.everypony.ru/blog/lighthouse/" class="topic-blog private-blog">Полночь После Маяка</a> 
+			
+			
+				</div>
+	</header>
+
+   
+   
+<div class="topic-content text">
+	    <header class="topic-header">
+    <ul class="topic-actions">
+        
+            </ul>
+</header>
+
+	
+			<span align="center"><img src="http://i.imgur.com/ashmK4Q.jpg"/><br/>
+<h4>28.12.1014</h4><a href="http://tabun.everypony.ru/blog/lighthouse/118985.html" rel="nofollow">&lt;= Предыдущий чат-пост</a> | <a href="http://tabun.everypony.ru/blog/lighthouse/119872.html" rel="nofollow">Следующий чат-пост =&gt;</a><br/>
+</span>
+		
+					<br/>
+			<a href="http://tabun.everypony.ru/blog/lighthouse/119327.html#cut" title="Читать дальше">
+									Упасть внутрь
+							</a>
+				
+	
+</div> 
+
+
+				
+
+	<footer class="topic-footer">
+		<p class="topic-tags js-favourite-insert-after-form js-favourite-tags-topic-119327">
+		Теги: 
+			<a rel="tag" href="http://tabun.everypony.ru/tag/%D0%9C%D0%9F%D0%9F/">МПП</a>, <a rel="tag" href="http://tabun.everypony.ru/tag/%D0%A7%D0%B0%D1%82-%D0%BF%D0%BE%D1%81%D1%82/">Чат-пост</a>, <a rel="tag" href="http://tabun.everypony.ru/tag/%D0%9C%D0%B0%D1%8F%D0%BA-%D1%85%D1%83%D1%8F%D0%BA/">Маяк-хуяк</a>, <a rel="tag" href="http://tabun.everypony.ru/tag/happy%20new%20year%21/">happy new year!</a><span class="topic-tags-edit js-favourite-tag-edit" style="display:none;"><a href="#" onclick="return ls.favourite.showEditTags(119327,'topic',this);" class="link-dotted">изменить свои теги</a></span>		</p>
+
+		<ul class="topic-info">
+			<li class="topic-info-date">
+				<time datetime="2014-12-28T18:06:30+03:00" title="28 декабря 2014, 18:06">
+					28 декабря 2014, 18:06
+				</time>
+			</li>
+			<!-- Обработка избранного -->			
+			<li class="topic-info-favourite" onclick="return ls.favourite.toggle(119327,$('#fav_topic_119327'),'topic');">
+				<i id="fav_topic_119327" class="favourite ">В избранное</i>
+				<!-- <span class="favourite-count" id="fav_count_topic_119327" >1</span> -->
+			</li>
+
+							<li class="topic-info-comments">
+											<a href="http://tabun.everypony.ru/blog/lighthouse/119327.html#comments" title="читать комментарии" class="new">
+							<i class="icon-synio-comments-green-filled"></i>
+							<span>1968</span>
+							<span class="count">+1</span>
+						</a>
+									</li>
+			
+
+						
+			
+		</ul>
+
+		
+			</footer>
+</article> <!-- /.topic -->
+
+
+											
+
+<article class="topic topic-type-question js-topic">
+	<header class="topic-header">
+		<h1 class="topic-title word-wrap">
+							<a href="http://tabun.everypony.ru/blog/lighthouse/119318.html">В поход. С кем ты будешь ночевать в одной палатке?</a>
+						
+						
+					</h1>
+		
+		
+		<div class="topic-info">
+			<div class="topic-info-vote">
+				<div id="vote_area_topic_119318" class="vote-topic
+										
+											vote-not-self
+										
+											not-voted
+										
+										
+											vote-not-expired
+					">
+					
+					<div class="vote-item vote-up" onclick="return ls.vote.vote(119318,this,1,'topic');"><span><i></i></span></div>
+					<div class="vote-item vote-count" title="всего проголосовало: 24">
+						<span id="vote_total_topic_119318">
+															<i onclick="return ls.vote.vote(119318,this,0,'topic');">?</i>
+													</span>
+					</div>
+					<div class="vote-item vote-down" onclick="return ls.vote.vote(119318,this,-1,'topic');"><span><i></i></span></div>
+				</div>
+			</div>
+
+			<a href="http://tabun.everypony.ru/profile/Akatsuki/"><img src="http://tabun.everypony.ru/uploads/images/00/73/41/2015/01/08/avatar_24x24.png?111114" alt="avatar" class="avatar" /></a>
+			<a rel="author" href="http://tabun.everypony.ru/profile/Akatsuki/">Akatsuki</a> в блоге
+			<a href="http://tabun.everypony.ru/blog/lighthouse/" class="topic-blog private-blog">Полночь После Маяка</a> 
+			
+			
+				</div>
+	</header>
+
+
+
+<div id="topic_question_area_119318" class="poll">
+			<ul class="poll-result" id="poll-result-original-119318">
+			<li >
+			<dl>
+				<dt>
+					<strong>6.6%</strong><br />
+					<span>(5)</span>
+				</dt>
+				<dd>Гибоникус<div style="width: 6.6%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>2.6%</strong><br />
+					<span>(2)</span>
+				</dt>
+				<dd>Флекс<div style="width: 2.6%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>7.9%</strong><br />
+					<span>(6)</span>
+				</dt>
+				<dd>Ликсис<div style="width: 7.9%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>1.3%</strong><br />
+					<span>(1)</span>
+				</dt>
+				<dd>Майк<div style="width: 1.3%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>2.6%</strong><br />
+					<span>(2)</span>
+				</dt>
+				<dd>Психопат<div style="width: 2.6%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>7.9%</strong><br />
+					<span>(6)</span>
+				</dt>
+				<dd>Дитти<div style="width: 7.9%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>3.9%</strong><br />
+					<span>(3)</span>
+				</dt>
+				<dd>Лаки<div style="width: 3.9%;" ></div></dd>
+			</dl>
+		</li>
+			<li class="most">
+			<dl>
+				<dt>
+					<strong>21.1%</strong><br />
+					<span>(16)</span>
+				</dt>
+				<dd>Муняша<div style="width: 21.1%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>1.3%</strong><br />
+					<span>(1)</span>
+				</dt>
+				<dd>Крим<div style="width: 1.3%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>1.3%</strong><br />
+					<span>(1)</span>
+				</dt>
+				<dd>Белсебор<div style="width: 1.3%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>1.3%</strong><br />
+					<span>(1)</span>
+				</dt>
+				<dd>Бленкхед<div style="width: 1.3%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>1.3%</strong><br />
+					<span>(1)</span>
+				</dt>
+				<dd>Андреймал<div style="width: 1.3%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>3.9%</strong><br />
+					<span>(3)</span>
+				</dt>
+				<dd>Нумерадин<div style="width: 3.9%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>3.9%</strong><br />
+					<span>(3)</span>
+				</dt>
+				<dd>Сатурн<div style="width: 3.9%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>5.3%</strong><br />
+					<span>(4)</span>
+				</dt>
+				<dd>Гленн<div style="width: 5.3%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>0.0%</strong><br />
+					<span>(0)</span>
+				</dt>
+				<dd>Френдлипони<div style="width: 0.0%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>0.0%</strong><br />
+					<span>(0)</span>
+				</dt>
+				<dd>Атлантист<div style="width: 0.0%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>7.9%</strong><br />
+					<span>(6)</span>
+				</dt>
+				<dd>Свой вариант<div style="width: 7.9%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>19.7%</strong><br />
+					<span>(15)</span>
+				</dt>
+				<dd>Я лучше на улице замерзну чем буду спать с извращенцем!<div style="width: 19.7%;" ></div></dd>
+			</dl>
+		</li>
+	</ul>
+
+
+<ul class="poll-result" id="poll-result-sort-119318" style="display: none;">
+			<li class="most">
+			<dl>
+				<dt>
+					<strong>21.1%</strong><br />
+					<span>(16)</span>
+				</dt>
+				<dd>Муняша<div style="width: 21.1%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>19.7%</strong><br />
+					<span>(15)</span>
+				</dt>
+				<dd>Я лучше на улице замерзну чем буду спать с извращенцем!<div style="width: 19.7%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>7.9%</strong><br />
+					<span>(6)</span>
+				</dt>
+				<dd>Свой вариант<div style="width: 7.9%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>7.9%</strong><br />
+					<span>(6)</span>
+				</dt>
+				<dd>Дитти<div style="width: 7.9%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>7.9%</strong><br />
+					<span>(6)</span>
+				</dt>
+				<dd>Ликсис<div style="width: 7.9%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>6.6%</strong><br />
+					<span>(5)</span>
+				</dt>
+				<dd>Гибоникус<div style="width: 6.6%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>5.3%</strong><br />
+					<span>(4)</span>
+				</dt>
+				<dd>Гленн<div style="width: 5.3%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>3.9%</strong><br />
+					<span>(3)</span>
+				</dt>
+				<dd>Нумерадин<div style="width: 3.9%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>3.9%</strong><br />
+					<span>(3)</span>
+				</dt>
+				<dd>Сатурн<div style="width: 3.9%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>3.9%</strong><br />
+					<span>(3)</span>
+				</dt>
+				<dd>Лаки<div style="width: 3.9%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>2.6%</strong><br />
+					<span>(2)</span>
+				</dt>
+				<dd>Флекс<div style="width: 2.6%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>2.6%</strong><br />
+					<span>(2)</span>
+				</dt>
+				<dd>Психопат<div style="width: 2.6%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>1.3%</strong><br />
+					<span>(1)</span>
+				</dt>
+				<dd>Белсебор<div style="width: 1.3%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>1.3%</strong><br />
+					<span>(1)</span>
+				</dt>
+				<dd>Майк<div style="width: 1.3%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>1.3%</strong><br />
+					<span>(1)</span>
+				</dt>
+				<dd>Андреймал<div style="width: 1.3%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>1.3%</strong><br />
+					<span>(1)</span>
+				</dt>
+				<dd>Бленкхед<div style="width: 1.3%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>1.3%</strong><br />
+					<span>(1)</span>
+				</dt>
+				<dd>Крим<div style="width: 1.3%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>0.0%</strong><br />
+					<span>(0)</span>
+				</dt>
+				<dd>Френдлипони<div style="width: 0.0%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>0.0%</strong><br />
+					<span>(0)</span>
+				</dt>
+				<dd>Атлантист<div style="width: 0.0%;" ></div></dd>
+			</dl>
+		</li>
+	</ul>
+
+
+
+<div class="poll-total">
+	<i class="poll-sort" title="Включить\выключить сортировку" onclick="return ls.poll.switchResult(this, 119318);"></i>
+	
+	Проголосовало &mdash; 88<br />
+	Воздержалось &mdash; 12
+</div>
+	</div>
+
+
+<div class="topic-content text">
+	    <header class="topic-header">
+    <ul class="topic-actions">
+        
+            </ul>
+</header>
+
+	
+	Предположим вы все таки решили выбраться из дома и собраться всем вместе куда нибудь… предположим в <a href="http://tabun.everypony.ru/blog/NSFW/72510.html" rel="nofollow">Бронивилль</a>. Вы прибыли на место, и начинаете веселится, праздновать, употреблять различные напитки вообщем отдыхаете как и любые другие люди на природе. И вот <s>светает</s> темнеет, у вас тяжелеют веки и вы понимаете что на сегодня хватит. Назревает вопрос о ночлеге, но вот досада — вы забыли палатку! К счастью несколько броняш согласились предоставить ночлег. <br/>
+А теперь знатоки внимание вопрос: <strong>С кем ты будешь ночевать в одной палатке?</strong>
+	
+	
+</div> 
+
+
+
+				
+
+	<footer class="topic-footer">
+		<p class="topic-tags js-favourite-insert-after-form js-favourite-tags-topic-119318">
+		Теги: 
+			<a rel="tag" href="http://tabun.everypony.ru/tag/%D0%9C%D0%9F%D0%9F/">МПП</a>, <a rel="tag" href="http://tabun.everypony.ru/tag/%D0%9D%D0%B0%20%D0%BF%D1%80%D0%B8%D1%80%D0%BE%D0%B4%D0%B5/">На природе</a>, <a rel="tag" href="http://tabun.everypony.ru/tag/%D0%9D%D0%BE%D1%87%D1%8C%D1%8E%20%D1%82%D0%B0%D0%BA%20%D1%85%D0%BE%D0%BB%D0%BE%D0%B4%D0%BD%D0%BE/">Ночью так холодно</a>, <a rel="tag" href="http://tabun.everypony.ru/tag/%D0%A2%D0%B0%D0%BA%D0%B8%D0%B5%20%D0%B4%D0%B5%D0%BB%D0%B0/">Такие дела</a><span class="topic-tags-edit js-favourite-tag-edit" style="display:none;"><a href="#" onclick="return ls.favourite.showEditTags(119318,'topic',this);" class="link-dotted">изменить свои теги</a></span>		</p>
+
+		<ul class="topic-info">
+			<li class="topic-info-date">
+				<time datetime="2014-12-28T14:52:00+03:00" title="28 декабря 2014, 14:52">
+					28 декабря 2014, 14:52
+				</time>
+			</li>
+			<!-- Обработка избранного -->			
+			<li class="topic-info-favourite" onclick="return ls.favourite.toggle(119318,$('#fav_topic_119318'),'topic');">
+				<i id="fav_topic_119318" class="favourite ">В избранное</i>
+				<!-- <span class="favourite-count" id="fav_count_topic_119318" style="display: none"></span> -->
+			</li>
+
+							<li class="topic-info-comments">
+											<a href="http://tabun.everypony.ru/blog/lighthouse/119318.html#comments" title="читать комментарии" class="new">
+							<i class="icon-synio-comments-green-filled"></i>
+							<span>180</span>
+							<span class="count">+34</span>
+						</a>
+									</li>
+			
+
+						
+			
+		</ul>
+
+		
+			</footer>
+</article> <!-- /.topic -->
+
+											
+
+<article class="topic topic-type-question js-topic">
+	<header class="topic-header">
+		<h1 class="topic-title word-wrap">
+							<a href="http://tabun.everypony.ru/blog/lighthouse/119220.html">Какой мой опрос в МПП был самым тупым?</a>
+						
+						
+					</h1>
+		
+		
+		<div class="topic-info">
+			<div class="topic-info-vote">
+				<div id="vote_area_topic_119220" class="vote-topic
+										
+											vote-not-self
+										
+											not-voted
+										
+										
+											vote-not-expired
+					">
+					
+					<div class="vote-item vote-up" onclick="return ls.vote.vote(119220,this,1,'topic');"><span><i></i></span></div>
+					<div class="vote-item vote-count" title="всего проголосовало: 27">
+						<span id="vote_total_topic_119220">
+															<i onclick="return ls.vote.vote(119220,this,0,'topic');">?</i>
+													</span>
+					</div>
+					<div class="vote-item vote-down" onclick="return ls.vote.vote(119220,this,-1,'topic');"><span><i></i></span></div>
+				</div>
+			</div>
+
+			<a href="http://tabun.everypony.ru/profile/LuckyHorseshoe/"><img src="http://tabun.everypony.ru/uploads/images/01/68/44/2014/12/30/avatar_24x24.jpg?184251" alt="avatar" class="avatar" /></a>
+			<a rel="author" href="http://tabun.everypony.ru/profile/LuckyHorseshoe/">LuckyHorseshoe</a> в блоге
+			<a href="http://tabun.everypony.ru/blog/lighthouse/" class="topic-blog private-blog">Полночь После Маяка</a> 
+			
+			
+				</div>
+	</header>
+
+
+
+<div id="topic_question_area_119220" class="poll">
+			<ul class="poll-result" id="poll-result-original-119220">
+			<li >
+			<dl>
+				<dt>
+					<strong>6.8%</strong><br />
+					<span>(5)</span>
+				</dt>
+				<dd>Кого лучше забанить?<div style="width: 6.8%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>5.4%</strong><br />
+					<span>(4)</span>
+				</dt>
+				<dd>Забаним Ликсиса?<div style="width: 5.4%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>8.1%</strong><br />
+					<span>(6)</span>
+				</dt>
+				<dd>Вернём Димона?<div style="width: 8.1%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>13.5%</strong><br />
+					<span>(10)</span>
+				</dt>
+				<dd>Кого бы вы взяли в жёны?<div style="width: 13.5%;" ></div></dd>
+			</dl>
+		</li>
+			<li class="most">
+			<dl>
+				<dt>
+					<strong>66.2%</strong><br />
+					<span>(49)</span>
+				</dt>
+				<dd>Этот<div style="width: 66.2%;" ></div></dd>
+			</dl>
+		</li>
+	</ul>
+
+
+<ul class="poll-result" id="poll-result-sort-119220" style="display: none;">
+			<li class="most">
+			<dl>
+				<dt>
+					<strong>66.2%</strong><br />
+					<span>(49)</span>
+				</dt>
+				<dd>Этот<div style="width: 66.2%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>13.5%</strong><br />
+					<span>(10)</span>
+				</dt>
+				<dd>Кого бы вы взяли в жёны?<div style="width: 13.5%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>8.1%</strong><br />
+					<span>(6)</span>
+				</dt>
+				<dd>Вернём Димона?<div style="width: 8.1%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>6.8%</strong><br />
+					<span>(5)</span>
+				</dt>
+				<dd>Кого лучше забанить?<div style="width: 6.8%;" ></div></dd>
+			</dl>
+		</li>
+			<li >
+			<dl>
+				<dt>
+					<strong>5.4%</strong><br />
+					<span>(4)</span>
+				</dt>
+				<dd>Забаним Ликсиса?<div style="width: 5.4%;" ></div></dd>
+			</dl>
+		</li>
+	</ul>
+
+
+
+<div class="poll-total">
+	<i class="poll-sort" title="Включить\выключить сортировку" onclick="return ls.poll.switchResult(this, 119220);"></i>
+	
+	Проголосовало &mdash; 88<br />
+	Воздержалось &mdash; 14
+</div>
+	</div>
+
+
+<div class="topic-content text">
+	    <header class="topic-header">
+    <ul class="topic-actions">
+        
+            </ul>
+</header>
+
+	
+	
+	
+	
+</div> 
+
+
+
+				
+
+	<footer class="topic-footer">
+		<p class="topic-tags js-favourite-insert-after-form js-favourite-tags-topic-119220">
+		Теги: 
+			<a rel="tag" href="http://tabun.everypony.ru/tag/%D0%9C%D0%9F%D0%9F/">МПП</a>, <a rel="tag" href="http://tabun.everypony.ru/tag/%D0%B0%20%D1%81%D0%B2%D0%B0%D0%B4%D1%8C%D0%B1%D0%B0%20%D0%B2%D1%81%D1%91%20%D1%80%D0%B0%D0%B2%D0%BD%D0%BE%20%D1%81%D0%BA%D0%BE%D1%80%D0%BE/">а свадьба всё равно скоро</a><span class="topic-tags-edit js-favourite-tag-edit" style="display:none;"><a href="#" onclick="return ls.favourite.showEditTags(119220,'topic',this);" class="link-dotted">изменить свои теги</a></span>		</p>
+
+		<ul class="topic-info">
+			<li class="topic-info-date">
+				<time datetime="2014-12-27T16:11:06+03:00" title="27 декабря 2014, 16:11">
+					27 декабря 2014, 16:11
+				</time>
+			</li>
+			<!-- Обработка избранного -->			
+			<li class="topic-info-favourite" onclick="return ls.favourite.toggle(119220,$('#fav_topic_119220'),'topic');">
+				<i id="fav_topic_119220" class="favourite ">В избранное</i>
+				<!-- <span class="favourite-count" id="fav_count_topic_119220" style="display: none"></span> -->
+			</li>
+
+							<li class="topic-info-comments">
+											<a href="http://tabun.everypony.ru/blog/lighthouse/119220.html#comments" title="читать комментарии" class="new">
+							<i class="icon-synio-comments-green-filled"></i>
+							<span>103</span>
+							<span class="count">+20</span>
+						</a>
+									</li>
+			
+
+						
+			
+		</ul>
+
+		
+			</footer>
+</article> <!-- /.topic -->
+
+											
+
+<article class="topic topic-type-topic js-topic">
+	<header class="topic-header">
+		<h1 class="topic-title word-wrap">
+							<a href="http://tabun.everypony.ru/blog/lighthouse/118985.html">Чат-пост #159 им. Орфографии</a>
+						
+						
+					</h1>
+		
+		
+		<div class="topic-info">
+			<div class="topic-info-vote">
+				<div id="vote_area_topic_118985" class="vote-topic
+										
+											vote-not-self
+										
+											not-voted
+										
+										
+											vote-not-expired
+					">
+					
+					<div class="vote-item vote-up" onclick="return ls.vote.vote(118985,this,1,'topic');"><span><i></i></span></div>
+					<div class="vote-item vote-count" title="всего проголосовало: 24">
+						<span id="vote_total_topic_118985">
+															<i onclick="return ls.vote.vote(118985,this,0,'topic');">?</i>
+													</span>
+					</div>
+					<div class="vote-item vote-down" onclick="return ls.vote.vote(118985,this,-1,'topic');"><span><i></i></span></div>
+				</div>
+			</div>
+
+			<a href="http://tabun.everypony.ru/profile/LuckyHorseshoe/"><img src="http://tabun.everypony.ru/uploads/images/01/68/44/2014/12/30/avatar_24x24.jpg?184251" alt="avatar" class="avatar" /></a>
+			<a rel="author" href="http://tabun.everypony.ru/profile/LuckyHorseshoe/">LuckyHorseshoe</a> в блоге
+			<a href="http://tabun.everypony.ru/blog/lighthouse/" class="topic-blog private-blog">Полночь После Маяка</a> 
+			
+			
+				</div>
+	</header>
+
+   
+   
+<div class="topic-content text">
+	    <header class="topic-header">
+    <ul class="topic-actions">
+        
+            </ul>
+</header>
+
+	
+			<span align="center"><img src="http://i.imgur.com/ZpCq9ni.jpg"/></span><br/>
+<span align="center"><h4>24.12.14</h4><a href="http://tabun.everypony.ru/blog/lighthouse/118794.html" rel="nofollow">&lt;= Предыдущий чат-пост</a> | <a href="http://tabun.everypony.ru/blog/lighthouse/119327.html" rel="nofollow">Следующий чат-пост =&gt;</a></span><br/>
+
+		
+					<br/>
+			<a href="http://tabun.everypony.ru/blog/lighthouse/118985.html#cut" title="Читать дальше">
+									Упасть внутрь →
+							</a>
+				
+	
+</div> 
+
+
+				
+
+	<footer class="topic-footer">
+		<p class="topic-tags js-favourite-insert-after-form js-favourite-tags-topic-118985">
+		Теги: 
+			<a rel="tag" href="http://tabun.everypony.ru/tag/%D0%9C%D0%9F%D0%9F/">МПП</a>, <a rel="tag" href="http://tabun.everypony.ru/tag/%D1%81%D0%BA%D0%BE%D1%80%D0%BE/">скоро</a>, <a rel="tag" href="http://tabun.everypony.ru/tag/%D0%A1%D0%92%D0%90%D0%94%D0%AC%D0%91%D0%90%20%D0%92%20%D0%9C%D0%9F%D0%9F%21%21%21/">СВАДЬБА В МПП!!!</a>, <a rel="tag" href="http://tabun.everypony.ru/tag/%D0%9B%D0%B0%D0%BA%D0%B8%20%D0%B8%20%D0%9C%D0%B5%D0%BB%D0%BA%D0%BE%D1%80/">Лаки и Мелкор</a>, <a rel="tag" href="http://tabun.everypony.ru/tag/%D0%B0%20%D1%82%D0%B0%D0%BA%D0%B6%D0%B5/">а также</a>, <a rel="tag" href="http://tabun.everypony.ru/tag/%D0%9B%D0%B0%D0%BA%D0%B8%20%D0%B8%20%D0%A5%D0%B8%D0%B1/">Лаки и Хиб</a>, <a rel="tag" href="http://tabun.everypony.ru/tag/%D1%87%D0%B0%D1%82-%D0%BF%D0%BE%D1%81%D1%82/">чат-пост</a>, <a rel="tag" href="http://tabun.everypony.ru/tag/%D1%83%D1%87%D0%B8%D1%82%D0%B5%D1%81%D1%8C/">учитесь</a>, <a rel="tag" href="http://tabun.everypony.ru/tag/%D1%81%D1%82%D1%83%D0%B4%D0%B5%D0%BD%D1%82%D1%8B%20%3A3/">студенты :3</a>, <a rel="tag" href="http://tabun.everypony.ru/tag/%D0%B7%D0%B0%20%D0%BA%D0%BE%D0%B3%D0%BE%20%D0%B1%D1%8B%20%D0%B5%D1%89%D1%91%20%D0%BE%D1%82%D0%B4%D0%B0%D1%82%D1%8C%20%D0%9B%D0%B0%D0%BA%D0%B8%3F/">за кого бы ещё отдать Лаки?</a><span class="topic-tags-edit js-favourite-tag-edit" style="display:none;"><a href="#" onclick="return ls.favourite.showEditTags(118985,'topic',this);" class="link-dotted">изменить свои теги</a></span>		</p>
+
+		<ul class="topic-info">
+			<li class="topic-info-date">
+				<time datetime="2014-12-25T15:22:46+03:00" title="25 декабря 2014, 15:22">
+					25 декабря 2014, 15:22
+				</time>
+			</li>
+			<!-- Обработка избранного -->			
+			<li class="topic-info-favourite" onclick="return ls.favourite.toggle(118985,$('#fav_topic_118985'),'topic');">
+				<i id="fav_topic_118985" class="favourite ">В избранное</i>
+				<!-- <span class="favourite-count" id="fav_count_topic_118985" style="display: none"></span> -->
+			</li>
+
+							<li class="topic-info-comments">
+											<a href="http://tabun.everypony.ru/blog/lighthouse/118985.html#comments" title="читать комментарии" class="new">
+							<i class="icon-synio-comments-green-filled"></i>
+							<span>1093</span>
+							<span class="count">+4</span>
+						</a>
+									</li>
+			
+
+						
+			
+		</ul>
+
+		
+			</footer>
+</article> <!-- /.topic -->
+
+
+			
+	 
+	<div class="pagination">
+		<ul>
+							<li class="prev"><span>&larr; предыдущая</span></li>
+						
+			
+							<li class="next"><a href="http://tabun.everypony.ru/blog/lighthouse/page2/" class="js-paging-next-page" title="следующая">следующая &rarr;</a></li>
+					</ul>
+		<ul>
+						
+						
+			<li class="active"><span>1</span></li>
+			
+							<li><a href="http://tabun.everypony.ru/blog/lighthouse/page2/">2</a></li>
+							<li><a href="http://tabun.everypony.ru/blog/lighthouse/page3/">3</a></li>
+							<li><a href="http://tabun.everypony.ru/blog/lighthouse/page4/">4</a></li>
+							<li><a href="http://tabun.everypony.ru/blog/lighthouse/page5/">5</a></li>
+						
+			
+			<li><a href="http://tabun.everypony.ru/blog/lighthouse/page21/" title="последняя">последняя</a></li>					
+		</ul>
+	</div>
+
+
+
+
+				
+			</div> <!-- /content -->
+		</div> <!-- /content-wrapper -->
+	</div> <!-- /wrapper -->
+
+
+	
+	<footer id="footer">
+		<p class="nya-text">Все права принадлежат пони. Весь мир принадлежит пони.</p>
+		<img class="nya-foot" src="http://tabun.everypony.ru/templates/skin/synio/images/shy.png" alt="Няша"/>
+		
+	</footer>
+</div> <!-- /container -->
+
+<aside class="toolbar" id="toolbar">
+	
+
+								
+											<section class="toolbar-topic" id="" style="">
+		<a href="#" onclick="return ls.toolbar.topic.goPrev();" title="Предыдущий пост" class="toolbar-topic-prev"><i></i></a>
+		<a href="#" onclick="return ls.toolbar.topic.goNext();" title="Следующий пост" class="toolbar-topic-next"><i></i></a>
+	</section>
+
+	
+
+										
+			
+</aside>
+
+
+
+
+</body>
+</html>
+

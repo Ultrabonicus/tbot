@@ -9,9 +9,12 @@ import MediaTypes._
 import org.ccil.cowan.tagsoup.jaxp.SAXFactoryImpl
 import spray.json.DefaultJsonProtocol
 
-case class CommentStreamLoad(sText: String, sMsgTitle:String, sMsg:String, bStateError:Boolean)
+abstract class Load
 
-object CommentStreamJsonProtocol extends DefaultJsonProtocol {
+case class CommentStreamLoad(sText: String, sMsgTitle:String, sMsg:String, bStateError:Boolean) extends Load
+
+
+object JsonProtocols extends DefaultJsonProtocol {
 	implicit val commentStreamFormat = jsonFormat4(CommentStreamLoad)
 }
 

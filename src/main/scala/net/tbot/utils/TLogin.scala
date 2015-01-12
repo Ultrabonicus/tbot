@@ -25,17 +25,6 @@ object TLogin {
 	 *
 	 * @return собраный запрос с формочкой
 	 */
-/*
-	def loginRequest(login: String, password: String, remember: Boolean = true, url: String): HttpRequest = {
-		val data = collection.immutable.ListMap(
-			"login" -> login,
-			"password" -> password,
-			"remember" -> (if (remember) "on" else "off"),
-			"return-path" -> "http://tabun.everypony.ru/")
-		val request = Post(url + "/login/ajax-login", FormData(data))
-		request.withHeaders(List(RawHeader("X-Requested-With", "XMLHttpRequest")))
-	}
-*/
 		def loginRequest(login: String, password: String, slskey: String, remember: Boolean = true, url: String): HttpRequest = {
 		val data = collection.immutable.ListMap(
 			"login" -> login,

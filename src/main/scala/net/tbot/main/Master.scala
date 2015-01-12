@@ -18,6 +18,12 @@ class Master extends Actor with ActorLogging {
 	val tWebClient = context.actorOf(ClientSupervisor.props, ClientSupervisor.name)
 	
 	val commentStream = context.actorOf(CommentStreamReader.props, CommentStreamReader.name)
+	val optionalStream = context.actorOf(CommentStreamReader.props, CommentStreamReader.name + 4)
+	
+	override def preStart = {
+		system.scheduler.scheduleOnce(3.seconds, commentStream, AssignInt(20))	
+		system.scheduler.scheduleOnce(90.seconds, optionalStream, AssignInt(20))
+	}
 	
 	tWebClient ! Initiate("tabun.everypony.ru")
 
@@ -26,7 +32,8 @@ class Master extends Actor with ActorLogging {
 		case LogIn(name, password) => tWebClient ! LogIn(name, password)
 		case GetPage(url) => tWebClient ! GetPage(url)
 		
-		case Subscribe(ref,typ) => log.debug("subscribe at master") ; tWebClient ! Subscribe(ref,typ)
+		case Unsubscribe(ref,typ) => log.debug("Unubscribe at master") ; tWebClient ! Unsubscribe(ref,typ)
+		case Subscribe(ref,typ) => log.debug("Subscribe at master") ; tWebClient ! Subscribe(ref,typ)
 		case LoggedIn => log.info("logged in")
 		case LogInFailed(list) => log.warning("blabla log in failed")
 		case Page(page) => page.onComplete {
