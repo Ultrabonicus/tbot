@@ -1,5 +1,7 @@
 *.class
 *.log
+.cache-main
+.cache-tests
 .cache/
 .cache
 .history/
@@ -17,3 +19,4 @@ project/plugins/project/
 .project/ 
 .project
 .settings
+/bin/

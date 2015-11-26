@@ -14,7 +14,7 @@ object PagesParser {
 	
 	private val parser = scala.xml.XML.withSAXParser(new org.ccil.cowan.tagsoup.jaxp.SAXFactoryImpl().newSAXParser())
 	
-	def fromTextString(text:String):Seq[CommentFromStream] = {
+	def parseCommentStream(text:String):Seq[CommentFromStream] = {
 		val xml = parser.loadString(text)
 		def parseComment(elem:NodeSeq):CommentFromStream = {
 			val authorAndBlog = elem.\("p").\("a")
@@ -69,6 +69,7 @@ object PagesParser {
 		}
 	}
 	
+	def parseCommentsFromPost = ???
 }
 
 case class Blog(blogId:Long, name:String, creator:String, readers:Long, votesTotal:Double, closed:Boolean, descriprion:xml.Node, admins:Seq[String], moderators:Seq[String], voteCount:Long, postsCount:Long, created:String)

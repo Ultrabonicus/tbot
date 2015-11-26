@@ -4,6 +4,7 @@ import akka.actor._
 import net.tbot.utils.CommentStreamLoad
 import scala.concurrent.duration._
 import scala.util.{Success,Failure}
+import net.tbot.utils.PagesParser
 
 object CommentStreamReader{
 	def props = Props[CommentStreamReader]
@@ -29,7 +30,7 @@ class CommentStreamReader extends Actor with ActorLogging{
 		case AssignInt(int:Int) => context.system.scheduler.scheduleOnce(delay = int.seconds, receiver = parent, message = Unsubscribe(context.self, CommentStream));
 				sc = Option.apply(context.system.scheduler.scheduleOnce(delay = 3.seconds, receiver = parent, message = Subscribe(context.self, CommentStream)))
 		case CommentStreamFuture(f) => f.onComplete{
-				case Success(res) => val res2 = res.right.get ; log.info(/*CommentStreamParser.fromTextString(res.right.get.sText).map(x => x.author).toString*/"Not invented here")
+				case Success(res) => val res2 = res.right.get ; log.info(PagesParser.parseCommentStream(res.right.get.sText).map(x => x.author).toString)
 				case Failure(f) => log.warning(f.toString)
 		}
 		case any => log.info("unknown message: " + any)

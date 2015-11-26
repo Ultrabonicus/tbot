@@ -1,7 +1,3 @@
-import wartremover._
-
-wartremoverSettings
-
 scalacOptions ++= Seq("-encoding", "utf8", "-deprecation", "-unchecked")
 
 scalacOptions ++= Seq("-feature")
@@ -24,5 +20,6 @@ libraryDependencies ++= Seq(
    "org.scala-lang.modules" %% "scala-xml" % "1.0.2",
    "org.specs2" %% "specs2" % "2.4.15" % "test",
    "com.typesafe.akka" %% "akka-testkit" % "2.3.5" % "test",
-   "io.spray" %% "spray-testkit" % "1.3.1" % "test"
+   "io.spray" %% "spray-testkit" % "1.3.1" % "test",
+   "junit" % "junit" % "4.8.1" % "test"
 )

@@ -18,10 +18,12 @@ class Master extends Actor with ActorLogging {
 	val tWebClient = context.actorOf(ClientSupervisor.props, ClientSupervisor.name)
 	
 	val commentStream = context.actorOf(CommentStreamReader.props, CommentStreamReader.name)
+	val commentStream2 = context.actorOf(CommentStreamReader.props, CommentStreamReader.name + 2)
 	val optionalStream = context.actorOf(CommentStreamReader.props, CommentStreamReader.name + 4)
 	
 	override def preStart = {
-		system.scheduler.scheduleOnce(3.seconds, commentStream, AssignInt(20))	
+		system.scheduler.scheduleOnce(3.seconds, commentStream, AssignInt(20))
+		system.scheduler.scheduleOnce(3.seconds, commentStream2, AssignInt(60))
 		system.scheduler.scheduleOnce(90.seconds, optionalStream, AssignInt(20))
 	}
 	
